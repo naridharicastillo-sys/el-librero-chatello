@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>El Librero · Chatello</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cafe:       #6F4E37;
+    --cafe-dark:  #3b2010;
+    --cafe-med:   #A0785A;
+    --cafe-light: #C8A882;
+    --crema:      #FFF8F0;
+    --crema2:     #F5EFE7;
+    --verde:      #3d6b49;
+    --morado:     #5a2d72;
+    --texto:      #2D1A0E;
+    --gris:       #888;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: var(--crema);
+    color: var(--texto);
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: linear-gradient(160deg, #2a1508 0%, #4a2e18 60%, #6F4E37 100%);
+    padding: 36px 24px 32px;
+    text-align: center;
+  }
+
+  .header-logo {
+    width: 140px;
+    filter: invert(1) brightness(2) sepia(0.2);
+    margin-bottom: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+
+  .header-title span { color: var(--cafe-light); }
+
+  .header-tagline {
+    font-size: 13px;
+    color: rgba(255,255,255,.6);
+    margin-top: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .header-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--cafe-light);
+    margin: 14px auto 0;
+    border-radius: 2px;
+  }
+
+  /* ── ABOUT ── */
+  .about {
+    margin: 20px 16px 0;
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 12px rgba(111,78,55,.08);
+  }
+
+  .about p {
+    font-size: 13.5px;
+    color: var(--cafe-med);
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .about strong { color: var(--cafe); }
+
+  /* ── SECTION LABEL ── */
+  .section-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--cafe-med);
+    text-align: center;
+    margin: 28px 0 14px;
+  }
+
+  /* ── PHOTO CARDS ── */
+  .cards {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0 10px 40px rgba(0,0,0,.22);
+    -webkit-tap-highlight-color: transparent;
+    transition: transform .2s;
+  }
+
+  .card:active { transform: scale(.98); }
+
+  .card-photo {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .card-pedir .card-photo { object-position: center 30%; }
+
+  .card-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .card-pedir .card-overlay {
+    background: linear-gradient(to bottom,
+      rgba(30,12,3,.1) 0%,
+      rgba(30,12,3,.18) 40%,
+      rgba(30,12,3,.80) 100%);
+  }
+
+  .card-donar .card-overlay {
+    background: linear-gradient(to bottom,
+      rgba(15,40,25,.1) 0%,
+      rgba(15,40,25,.2) 40%,
+      rgba(15,40,25,.85) 100%);
+  }
+
+  .card-devolver .card-overlay {
+    background: linear-gradient(to bottom,
+      rgba(40,15,60,.1) 0%,
+      rgba(40,15,60,.2) 40%,
+      rgba(40,15,60,.85) 100%);
+  }
+
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 22px 18px;
+  }
+
+  .card-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+
+  .card-pedir   .card-badge { background: rgba(111,78,55,.65); color: #FFE4CC; }
+  .card-donar   .card-badge { background: rgba(30,80,45,.65);  color: #B8EAC8; }
+  .card-devolver .card-badge { background: rgba(80,30,100,.65); color: #DDBFEE; }
+
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 6px;
+  }
+
+  .card-desc {
+    font-size: 12.5px;
+    color: rgba(255,255,255,.78);
+    line-height: 1.5;
+    margin-bottom: 14px;
+  }
+
+  .card-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    border: 1.5px solid rgba(255,255,255,.5);
+    border-radius: 30px;
+    padding: 7px 18px;
+    letter-spacing: 0.3px;
+  }
+
+  /* ── CÓMO FUNCIONA ── */
+  .how-section {
+    margin: 28px 16px 0;
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 2px 12px rgba(111,78,55,.07);
+  }
+
+  .how-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: var(--cafe);
+    margin-bottom: 18px;
+  }
+
+  .how-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+
+  .how-step:last-child { margin-bottom: 0; }
+
+  .how-num {
+    width: 28px;
+    height: 28px;
+    background: var(--crema2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--cafe);
+    flex-shrink: 0;
+  }
+
+  .how-text {
+    font-size: 13.5px;
+    color: var(--texto);
+    line-height: 1.6;
+    padding-top: 4px;
+  }
+
+  .how-text strong { color: var(--cafe); }
+
+  /* ── DONACIÓN BANNER ── */
+  .don-banner {
+    margin: 16px 16px 0;
+    background: linear-gradient(135deg, #3b2010 0%, #6F4E37 100%);
+    border-radius: 16px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .don-icon { font-size: 28px; flex-shrink: 0; }
+
+  .don-banner h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 3px;
+  }
+
+  .don-banner p {
+    font-size: 12px;
+    color: rgba(255,255,255,.7);
+    line-height: 1.5;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    text-align: center;
+    padding: 24px 16px 44px;
+  }
+
+  .footer-logo {
+    width: 80px;
+    opacity: 0.3;
+    filter: sepia(1);
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+  .footer p {
+    font-size: 11px;
+    color: var(--gris);
+    line-height: 1.9;
+  }
+
+  .footer strong {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    color: var(--cafe-med);
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <img src="logo_chatello.png" alt="Chatello Cafetería" class="header-logo">
+  <h1 class="header-title">El <span>Librero</span></h1>
+  <p class="header-tagline">Dona · Toma uno · Lee · Devuélvelo</p>
+  <div class="header-divider"></div>
+</div>
+
+<!-- ABOUT -->
+<div class="about">
+  <p>Un proyecto comunitario de préstamo de libros en las cafeterías <strong>Chatello</strong>. Completamente <strong>gratuito</strong> — solo cuídalos y devuélvelos para que otros puedan leerlos.</p>
+</div>
+
+<!-- CARDS -->
+<p class="section-label">¿Qué quieres hacer?</p>
+
+<div class="cards">
+
+  <!-- PEDIR -->
+  <a class="card card-pedir" href="formulario_solicitud.html">
+    <img class="card-photo" src="foto_pedir.jpg" alt="Pide un libro">
+    <div class="card-overlay"></div>
+    <div class="card-body">
+      <span class="card-badge">Préstamo gratuito</span>
+      <h2 class="card-title">Pedir un libro</h2>
+      <p class="card-desc">¿Ves alguno que te llame la atención? Regístrate y llévatelo hoy.</p>
+      <span class="card-cta">Quiero un libro →</span>
+    </div>
+  </a>
+
+  <!-- DONAR -->
+  <a class="card card-donar" href="formulario_donacion.html">
+    <img class="card-photo" src="foto_donar.jpg" alt="Dona un libro">
+    <div class="card-overlay"></div>
+    <div class="card-body">
+      <span class="card-badge">Donación</span>
+      <h2 class="card-title">Donar un libro</h2>
+      <p class="card-desc">¿Tienes uno guardado en casa? Dónalo para que siga viajando.</p>
+      <span class="card-cta">Quiero donar →</span>
+    </div>
+  </a>
+
+  <!-- DEVOLVER -->
+  <a class="card card-devolver" href="formulario_devolucion.html">
+    <img class="card-photo" src="foto_devolver.jpg" alt="Devuelve un libro">
+    <div class="card-overlay"></div>
+    <div class="card-body">
+      <span class="card-badge">Devolución</span>
+      <h2 class="card-title">Devolver un libro</h2>
+      <p class="card-desc">¿Ya terminaste? Devuélvelo y deja tu reseña para el próximo lector.</p>
+      <span class="card-cta">Devolver →</span>
+    </div>
+  </a>
+
+</div>
+
+<!-- CATÁLOGO LINK -->
+<a href="catalogo.html" style="
+  display: flex; align-items: center; justify-content: space-between;
+  margin: 14px 16px 0; background: #fff; border-radius: 16px;
+  padding: 16px 20px; text-decoration: none;
+  box-shadow: 0 2px 12px rgba(111,78,55,.08);
+  border: 1.5px solid var(--crema2);
+">
+  <div style="display:flex; align-items:center; gap:12px;">
+    <span style="font-size:28px">🔍</span>
+    <div>
+      <div style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; color:var(--cafe);">Ver catálogo completo</div>
+      <div style="font-size:12px; color:var(--gris); margin-top:2px;">Todos los libros disponibles</div>
+    </div>
+  </div>
+  <span style="font-size:18px; color:var(--cafe-light);">→</span>
+</a>
+
+<!-- CÓMO FUNCIONA -->
+<div class="how-section">
+  <h3 class="how-title">¿Cómo funciona?</h3>
+  <div class="how-step">
+    <div class="how-num">1</div>
+    <div class="how-text"><strong>Escoge un libro</strong> de los que están en la cafetería.</div>
+  </div>
+  <div class="how-step">
+    <div class="how-num">2</div>
+    <div class="how-text"><strong>Regístrate</strong> tocando "Pedir un libro" arriba.</div>
+  </div>
+  <div class="how-step">
+    <div class="how-num">3</div>
+    <div class="how-text"><strong>Léelo</strong> con calma. El proyecto confía en ti.</div>
+  </div>
+  <div class="how-step">
+    <div class="how-num">4</div>
+    <div class="how-text"><strong>Devuélvelo</strong> y deja tu reseña para el próximo lector.</div>
+  </div>
+</div>
+
+<!-- DONACIÓN -->
+<div class="don-banner">
+  <div class="don-icon">☕</div>
+  <div>
+    <h3>Apoya el proyecto</h3>
+    <p>Es gratuito y sin fines de lucro. Si quieres colaborar, hay una caja de donaciones voluntarias en cada cafetería.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <img src="logo_chatello.png" alt="Chatello" class="footer-logo">
+  <p>
+    <strong>El Librero</strong><br>
+    Chatello · Proyecto comunitario de préstamo de libros<br>
+    Sin fines de lucro · Con ❤️ para la comunidad
+  </p>
+</div>
+
+</body>
+</html>

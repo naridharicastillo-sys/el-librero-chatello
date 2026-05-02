@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "LIB-001",
+    "titulo": "Cámara de Gas",
+    "autor": "John Grisham",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/16NllCcpsA68ftCxwJEfTQ/6wwtW-kNXwFEFs3wGN54U9xF047uS1QXCCH2r3dUMDI7WayNBb3GeU0p1g4lJK2F2X7d1P6eNYtmoOLRiSgzS8Ri79yRn7YFPiJXK3aoi2B1KGp_wjTeKZvVZxYLT1uiNGih6VX0vkBYnmpQw_uilw/A8vfKLW7Ev069cSs-eIcnQQh7Oo24rN8uI5D85sR0wU"
+  },
+  {
+    "id": "LIB-002",
+    "titulo": "El Palacio de la Medianoche",
+    "autor": "Carlos Ruiz Zafón",
+    "genero": "Novela",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/ceszKekNQBTYquaaF3z5ow/E_OERMsf99o3roHwt-gHfu1rNPLRl5KmPP6bHUi8vuGlx4EDiCStDIuNyDJcfitosXIdReAa7MNNb66LcZMGtRaN8Pcck49ayzLoE8js48umz7eeVZDsAexZZUxaqYETJ4lVeOP4vfj8aTApojzyzg/NBQB1y5KKVR1FegvLEB6bMK1q1X6woWrQKCjMohSe78"
+  },
+  {
+    "id": "LIB-003",
+    "titulo": "La sombra de la noche",
+    "autor": "Deborah Harkness",
+    "genero": "Fantasía/Romance",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/YwTEcBPgJVcrPPQLzhFoGA/_7WhfH_aW8LrhK7S-d5zXMAXGR8FdsRk7oC6xfc1MsgHw6jkW9uF43MmQhxsJBZwFhL9tgJffSJzrOkbG-a0kn8Bh432PUNL5eKIYRznTLnZlydaINKk95X8S9WAXIK5Bxuq703yk8Dh5pjuVWHXFg/BcWbftKigrBO6tax8Hy5WvWhXabvi1o96rzu-M6U3-0"
+  },
+  {
+    "id": "LIB-004",
+    "titulo": "El sueño de Tiny Cooper",
+    "autor": "David Levithan",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/9hlYp2oLBZES2gDZnjy5JQ/A-20lCzDOtITxP5_-P5nJJixu8KjUGONjOkem5GWbRKxwjiDkWXhCTElTrZIC3chgkI_XCXg9d40aa-p09qjS2RDe93QaYK7r-ZxgaRGK4fg6tfG9OQAB3vHmxXrVLR4TJZwWJYLNRtxsfchUBbKzg/ben3DRIVmgoYdgA-8V-D8Cl1h_SYiw2wbCEAwj_4GRA"
+  },
+  {
+    "id": "LIB-005",
+    "titulo": "Ladrón de esperanzas",
+    "autor": "Francisco Martín Moreno",
+    "genero": "Novela",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Gh4bQdyUQvlqD-vNJeL2jQ/vJbh217f3Cn3PKEAgmGTjtaJlEIWtllKesOKPd4d_rS4RWZYOf2CsBkT0PbTx2S55dXsMPXJ5YuEh3plovjnDLHqEjmdWmK1BNAXYeJnMyyijTVpukplE8SHNiQZIm-mODlYG7iAE_pzkgOdKSKJ4w/c5BrVYD7Ilr8bVPNra6i9J07t0-vALwRdtqKR3e6KrM"
+  },
+  {
+    "id": "LIB-006",
+    "titulo": "Muerte en primera clase",
+    "autor": "J. M. Guelbenzu",
+    "genero": "Thriller/Misterio",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/8214UfwgBUAgnlxL9wZ5pA/qOMsrMVRnqC5QREJn8XGq5fe4xGNCd7J5GcdkvF_BX3jTV7bHgb6Fw7uCzXfFxCXLwHGGPHqayZ-R2TciNTptrQE6OQbVdTnVDKXLL2mn9K1cQhfXvKkYCIOrfg7uiSLPyGEOUexqKuPReM0lK2Jag/sF7pJ2K-3aV3GzHLAnSD4qXCBpw1WwT9CbT4qNUl7YE"
+  },
+  {
+    "id": "LIB-007",
+    "titulo": "Chanel (Leyendas de la Moda)",
+    "autor": "RBA Libros",
+    "genero": "Moda/Biografía",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/38aeq8czwMWLmtI4yj9cdg/wXeH2P_F-4OQVIuPkKziF3tr3X1k8vF8Q8YY4vNcGr_z1sHGd8eFjDB-obFF-0jQ9UCJ-yZGKfyPVMKmCby_36DQ9Waa6HBwxfKc-2BQxmNviQixS7hog_7hu9lpGeB93te3AR6-TF5AM4RY--9wOg/teJQt8ORx8rPsXD8QJEoNV0BQ7IunRKi8lzBSWkOWow"
+  },
+  {
+    "id": "LIB-008",
+    "titulo": "Otra vuelta de tuerca",
+    "autor": "Henry James",
+    "genero": "Clásico/Terror",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/7quDaIr2jMj3qoHSd_5Bqg/BKmVPkkrSjXltTbeAtc6RRtbD6vvzgMYy9FSSdfkz1J89qrxBg-jlkuKpGRL25HLRmRct4z826H2K7y8C6oUaENx78AXvscmPIZza8wTggWrgTJaKUa-jwg6z6WjM8AbNYLGksTyM5Zj4v136sFNgw/mwgYFNxiKqqVi71oKsIspfGS2JmPIwZA7RuJmgs3sP4"
+  },
+  {
+    "id": "LIB-009",
+    "titulo": "Las bolas de Cavendish",
+    "autor": "Fernando Vallejo",
+    "genero": "Novela",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/3e5COOisYmgoafkZfjQG1Q/szyduzTgaMx5n_KWnlQhG44s3ofeexEOO2uq1uhhP1wqN8itHFaelEPPS_J8rdBuwih9R1iY9Y3_YYPNRoPG0bVgk5ao8kB9DrVGfagfCr7RN3wYKbR4OFhdcZKO_1kAP7tqMrTHFoLz_oye4c2jjw/tvIGMnSH_jZ6HlGRCBhEaaRAMkdcPSb5diuPam0umNQ"
+  },
+  {
+    "id": "LIB-010",
+    "titulo": "El país de las moscas y otros relatos",
+    "autor": "Sadoth Vázquez",
+    "genero": "Cuentos",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/UkK4PX2WM0wOES_TI_eguA/JioIwEG6G3HnHPTGsIvpmBc3loQ-6rtkKSPk5EVAe2rpMEekf4qsd6dMYk9WffIBjv7AO5aR3VezKF632aPN8duHhvX-R0_7JqmTefrjKjj7R-hJXZJOR-gEVqHt8K2uJpQzbFIeOvXg_dlLmTqkAQ/2JVYrERG5P6i8fqr7kLCl_0f-lgQwGCp5jJLujDwkFc"
+  },
+  {
+    "id": "LIB-011",
+    "titulo": "¡Llegaron!",
+    "autor": "Fernando Vallejo",
+    "genero": "Novela",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/C_AJEF-sh7vkBzaEqho53Q/haQP914oZwDOjoVjz3Hd5SniARfQoAAPY6CcvXHQYUeqr9-cRX7neMNpwL6TF5j21-0mDLJjthrF3Kuj6CG5NyoXOtqLx24z5k5_iDfFvdXMN6LMaMs6TjSFm5w03o7q4ZBq9fR-UZL6OAsr6YhRrg/0nyhzNvf_mEM4FyrMAcLy9s9Ib2HwJ2a7_JUi58zaWw"
+  },
+  {
+    "id": "LIB-012",
+    "titulo": "Il Gioco",
+    "autor": "Imelda Ortiz González \"Mella\"",
+    "genero": "Narrativa",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/WtoE962KOkZwxVVx5fX0GA/UD6V5bcMKL5LXXtV9k-to7QMTelpBZhVyiNttPB_WwJflRLfSd1F-FVSjdZaN5OU4bqxpYCOa7Uc3tlSzrO6WTV_GgAwVpNkr_RJOrKbAuPF9jK_ODH2Qwc9aBqnbeqvq9wfNqkwhRTYvDdSCEmn6w/Mtn6LJXw2ewn_kEtnEintsZp9KzYTbMoXPZWGOyyCnc"
+  },
+  {
+    "id": "LIB-013",
+    "titulo": "The Great Controversy",
+    "autor": "Sin autor visible",
+    "genero": "Religión/Historia",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/gMeNJQtqxQLQxuZQSI-BJg/LGhuXzMbCN-z036MGtTFJsX_IfWffhlFSbpDzz5i-0Q_blAP1_K1adG9P4TJqZQi5PfbejFcIN_T4Ry2tvCqVnp47SNqumGGW5X1ohwcpEVVIF3HW5DRDLE-OZ98famhmOc6Rem69alyWIzK70A1JA/KLle66VIU7rG9csUyAmcNk94mBzKw9JfB_so5DCE0zw"
+  },
+  {
+    "id": "LIB-014",
+    "titulo": "Poemas",
+    "autor": "Raúl Zurita",
+    "genero": "Poesía",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/qMWNA8W_Hu88SBvU2KcF_w/rHGVrCqCsrhMtG7-BXoAt7tPkvoakrMGjsyYIlmnYAio7J5TXSlbexRyMFX7EkQduC0Rqa2LdlgH-mIUpos8cw3EoSkGponfZh81UXb3Xh2w9yxHO26bDbQHeIPOmKAAMEnraV4EKf59nWTzkWk9-g/fpPDv0uzePYIqomunfpu8xzriqO68eZKudcfQgZZO18"
+  },
+  {
+    "id": "LIB-015",
+    "titulo": "Mr. Mercedes",
+    "autor": "Stephen King",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Himno Nacional",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/gTy6pfdHbYBemeOcUT3Uzw/QHBLg2DhgWqZa8vAjewbqjA7eaSZbE1bQ1qLZctZNbjpJYf4IClnsEyj5oMwX1Ro4oQ9Qcyw1TMKVOxawnCbpY1_oE2vWOjtp_q_ab1KqFBuHgWh6u3ELOBUupUS24x5dzU6TQs8QNZNMqZbI_nLuQ/bFI0S1azD77GEdSM476_janAHqZBFyZWMuj5ZCSeiBI"
+  },
+  {
+    "id": "LIB-016",
+    "titulo": "La maravillosa medicina de Jorge",
+    "autor": "Roald Dahl",
+    "genero": "Infantil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/TkwbgQyW_6U0vBRl4upT3g/JCnEQDX65a7N9I9D4Q-JrQAI7rIM2MC3V-Yijwmcoyv27MsQ2mc1XbdmBAL6w_jFnaBUzqpKR04CWGc6r2B59xXVHleSlmwB5RJLPDdFYcUS4ggLum8tYwC-TCQ0FKViRGIRzYSfyJxjd1pML584Og/2ets4T07-JW3k0BNKYqZcZBHVnD2CeldtQr1khMtbuk"
+  },
+  {
+    "id": "LIB-017",
+    "titulo": "Las siluetas del fuego",
+    "autor": "Elisa Arráiz Lucca",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/O_VheBOzOMsJY_8R6wYdDw/KiHjjH-Er0O3YdkgoqP34tP775f62bZrn1WRDrbcZibdJfdsVW5MVZIslwlaqSzJQ5Hn3b1YPtqeJXyD_3JeU-nNd3IlW5x-7-fUbQBF12VP_xM9f2D8RE1ls98N-nebmwD5iBBaTcbn7wOQXabKHw/q49tMQSF5wFGSd8cbBRKK9gSRtqzL51lca85VtYVgmk"
+  },
+  {
+    "id": "LIB-018",
+    "titulo": "Años tempestuosos",
+    "autor": "Charlotte Link",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/ylFbJmZ8ocDTqu5uU_bCCg/5aIBX-pmTGgsInEG2WaUzA2ZyweodXG_Bwob_65nR3Ku1-CQ84X6_PLmv18pJjPMNLRCwpmGDOcmkkFs3DEJVQ1jdnQ_rV5OWYfIGnth4Jpc7MJHA19lFAbxvizK8TuN4mOTnOwT3bV7VuxGC0uRhw/RtA_D3YD-MLyUJdZ245W13hFThcqVlZE-yDve3DIFMk"
+  },
+  {
+    "id": "LIB-019",
+    "titulo": "Ave",
+    "autor": "Montse Navarro Ferrer",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/rOD_lJ7tc1Ss_Aw4VdTB6Q/sY6J1JbML4-n8QfbXLo5kKoba66x__xtrWuTwkwI2UXiXT83TiLwsw7wY-IIAz1mXOcATE1be0ION9sh9duQHB4QSlPJdHdtTnetr2SeRV7QWRRxS6QRx9RHUmkcUh9rxaf8J9E5Qy3LHM0TxL5xRQ/fXoWT3MTuMJxXc7R-OSYz2LpTDJdZKN4p2KtEQQ9xbw"
+  },
+  {
+    "id": "LIB-020",
+    "titulo": "Todo lo que somos juntos",
+    "autor": "Alice Kellen",
+    "genero": "Romance",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/D8f_MH3gXje4O5LZX5kxZA/wEs-laCuHgj3hwrUFlCqQtlfEfXxJVKMXOEwZVBp4FMUtvE_2F6xxImRZ1EFsmvq9z7VObynLMZDnCnFfF89ISK8goS27x6tczdlLW788IejqTMwPT1HpBj7h42gl8ou7V89t3rr9GoJmskLiN_sGA/wKlhU3FaUuLOu95OBKun-p45D5sghKVgB1WP-2XiMaY"
+  },
+  {
+    "id": "LIB-021",
+    "titulo": "Bajo la misma estrella",
+    "autor": "John Green",
+    "genero": "Juvenil/Romance",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Aq1yym_3rqx4dPsWBf_aEw/lsMf3Ld-zpzSg78mdfi6fSxfuPykBXsfqxm7Kws4de4wyeHpGs5V4jb3FjFcHvajhIRsQYqIXWT_fr-fJudAAxE2YQqfu2iiHFHOCLq3i83gmPdfqFN5XqiNzrGW3tjXXh1R3-l7agC61PQCAQrmwg/dXNdhl7g6cCKtx7EvQq_6_Ea50HpzHpQks2yaWcXbZk"
+  },
+  {
+    "id": "LIB-022",
+    "titulo": "Obras jocosas",
+    "autor": "Francisco de Quevedo",
+    "genero": "Clásico",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/FHKhHdpQgP_oSyMxDdTFqQ/-_zC_eINEQtJZTD64lASG-7y41ap4fBF-0Fh2E11fcLr-K67tngljpBH7jKJagxGk2ODTRDdy-Go9jJq3I0Bqh4kaoDu3efKgEu7gG5oEgKaeLs5R1dV2SHuw_B7cJyOlTRJ71QxAATCSIChp4Loyg/XHLMnmldO44UKkXeq8YVHFngsxJ6WgDkzHafbxi5Nl8"
+  },
+  {
+    "id": "LIB-023",
+    "titulo": "Cállate niña",
+    "autor": "Rodolfo Naró",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/DimCGXXxvJofR5EfYD1olQ/ey-gMId7Yyv3XA6t-9LnBP3mv84XGW3jyC-M0UUXExeDyRJDnP_Un4-7dgKhKjGYXRmYo0CB9gYMre66qDQ1TPOB2iu3MKtcpX85NAcetevnJd0EQ9VbPNLtQdmVrt90PTs5yTfQBhtqp4bawgrgHA/3wy5IbQ6c-14xdFLYOcNvvPb1r7EP6TrQzh0ApMz0BE"
+  },
+  {
+    "id": "LIB-024",
+    "titulo": "Beowulf",
+    "autor": "Anónimo",
+    "genero": "Clásico/Épica",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/zEzBdDILmGEifKojOT0kuA/GYmrnSj9lLuyW2PVICDRMshwhFno3juXa7ZHKxCgVJ0nruYhE2gZ5qCS11g3tKqapBvnx6Lvr0FQXbVnpReTlsDI86xxirV61qDvJaFnaDpOFAUcHdtuPBqoKQvBmlPva2ttVHg_IsHGrQ6j6dQVOg/oZuGcYRwxv6Z3LLl4dQL_AVlKWpuYHKJhpSq_2Ua3o4"
+  },
+  {
+    "id": "LIB-025",
+    "titulo": "Momentos estelares de la humanidad",
+    "autor": "Stefan Zweig",
+    "genero": "Historia",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Uc_We7VNK8DCHIhrlhqOcA/evCuQh6OYe155BV4wxZhnbVtzHBJ-G5NIzMu38_tTIilujtjranZON8hmbWes7oN9fuQ8ID1MqL7HpZlZPn_YJXcb_KvWBj9HJwzgh6YVpPiYFsjs0BT87LEkVwjS5bOOJ7UWhT-Ct9dHXxLbErzGw/M3JmWTikvG6rN9dBTBwSDkQEMijizcPzaXvdFhoYc6w"
+  },
+  {
+    "id": "LIB-026",
+    "titulo": "Las alas de la pantera",
+    "autor": "Carlos Puerto",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/i9ZAi_-FDwEfkZjy38gVRw/cmWZjbi10xRJXKprzdJjJtG23eMLJUwRODKNixu7wTNOXZJSmqEsEfDDmIH1p6INHRz2FHU2irzr-s-geIhWCERBTIwS6WTh0EcIe4X5WjLds67YYv_Caj2Smh98yjJFX8hD-EeOpJojR6MmXMYTbQ/S2_62UnuOy_mEdFi8pjs-DmwqBTAXVcDKaemD8Y-5ow"
+  },
+  {
+    "id": "LIB-027",
+    "titulo": "Las yeguas desbocadas",
+    "autor": "Guadalupe Loaeza",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/YwYpa_x2AgLcf_rH_PD7Mw/65nVHmgsIdRtPlKIyYeRx_95iTPLc3ZSFI1gwBT0fMbP10GVDUas3Z5FrI6Ozc4ZfHS5ahx8I9CrxlZ_5IvJslq704VLeBrZU1PCEqp39WdPsvLU5FwbU7tO8vNQZYEkoOpkcsaws6imwi-emtekCg/S_08-rtjjCcsZoNrkyIy2mKYP8JcOUNXUwkW426i_OA"
+  },
+  {
+    "id": "LIB-028",
+    "titulo": "Las yeguas finas",
+    "autor": "Guadalupe Loaeza",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/vUAUODK8jrBMkMx4Lg_DAQ/LkgwZAgGNZPO1ww56h6tqiNKKe2V2Wl4g1WlJyju9eZBuxx7TB-8CGXENM1bJYlUXR8ssVsHC2VHKpc9BdG65Pq8dQeAuIwZMZEREerffi5IaCivxLVU_L55WosZQB24rBB7y1KndNs8XUpBPvoHhg/UEe7Sa5EIFagGBG2oyDpy_XOe1JNf6XJJQA8Yzabj4w"
+  },
+  {
+    "id": "LIB-029",
+    "titulo": "El sueño de Tiny Cooper",
+    "autor": "David Levithan",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/j-A2RFdBlU3DXs8hKCCYbw/Rr0L8K0bMSWsDI8uwHR2pMYrRD-OjAe7FobXFpAhdAsc08px5PEKdGmZm-bWDhMDre_AV6o-10ZTKFPIFmh7UGbGT5iPz09mUMRGNMgNVOHX8mgdj_dxr5_RWTRRPN17rhsAu-vg59bbJsfxGsxcgA/M7icEkbLSpFazMSsPMYYs8pjMnG6UACjbEHkEsyqDLw"
+  },
+  {
+    "id": "LIB-030",
+    "titulo": "20 mil leguas de viaje submarino",
+    "autor": "Julio Verne",
+    "genero": "Clásico/Aventura",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/2vfZYUyWkCUHZt75mTr8eg/1mcQBP7mRuxxz2XEy63WgiLRlK0aPlH9Pf3hJPNbbmSR5ymIFcnfDY4hcAIdOht7q5rDjvp_TugTio0-o_YJx4p7hP5M01m81yKF4ukHGtc47JNcmiIj13JA6ZK-fA6hEMm1FJYjcvmOParrtSRiKA/v0jyCh_CK5sL8O_stSVCM688Z-fJ5MerZUMIOlKoOvM"
+  },
+  {
+    "id": "LIB-031",
+    "titulo": "Las crónicas de Narnia: La silla de plata",
+    "autor": "C. S. Lewis",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Yl8attzPZn_BIlHdXfNeOA/eIarwIsAr7a8HAYZqzPXnr0MUFBcOjBXMgv83fXBS7S_DNMkz9VF7regm4oH9ThdkbJ8AzBt4youVFzJ16jyZPxpKz08sOEsb_U1mcPHAEY63yJqF_kguQuWIZh6qcX25jTOV4j5H25S3qQ0cu4OMw/5KSTPf8vXbJtZlWk_znn3UjGiZtZnBwu1bel8D5WJNE"
+  },
+  {
+    "id": "LIB-032",
+    "titulo": "Zapatos de cocodrilo",
+    "autor": "Alfonso Suárez Romero",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/HqyPQ0RiKymF-psCnHd1OQ/qRdMFND9pdYxFDWRFo_FlMAjBr7oTI0UqvrRYU5pC5O1HyLnDaoJSQdypWZefTUmdBQV6YLOWHda0sqcJQtzP182sorISuHxyBzNnSddUhSFPL6bHpN5-hQyNBSEWraopJvZCDFH_Mv_NuX2npEfeg/aPWgBgEO0JHhPveWmNEmYXc8Axd5Q02dul-Es0q1ekM"
+  },
+  {
+    "id": "LIB-033",
+    "titulo": "Anders",
+    "autor": "Andreas Steinhöfel",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/eBkA6jPYRlIi0STbA9QDAg/1JbOXGZc5MdACjAHdO2ZiN5SKBkUB2AeCfCIh3wfhtz17Iy64AHjijUrF9HfApVmq4gZOZiJ0HyTo-WPpOaF2FQ8KeMR6ZKrxYABxd8N00Sg93GSRFUfCROSIlDQyhNn2iLh8fq1JcZPe_U6YI3hJA/Qb0rw5cunljbkE40sw-pyCdA-CYIRdI3IsOmF6EVOD0"
+  },
+  {
+    "id": "LIB-034",
+    "titulo": "Broadway Express",
+    "autor": "Iván Ríos Gascón",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/oe2LdeKMJzyRFw5uKaRCxA/zlFQ9JqXzJbMpgNtT3We5HV3KNDAcUoJLbkqCZR0xiETHvyGMpnTfzp2yplXQ8fFZibBVpb1D9UoZ_MSVctQXRcufZZL9kfEbuY5faqpqdqdoXFCsaQTnBxQV3vlbsBQ3iwHDcrRyRnypU8o6TCYuw/E0oEismDofacMosLyJRhqtMddUZqVbr4Vs7FrkxRvt8"
+  },
+  {
+    "id": "LIB-035",
+    "titulo": "Winter in Madrid",
+    "autor": "C. J. Sansom",
+    "genero": "Novela histórica",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/xrV3ca3-sUQyJr2Vj8qLTw/hRzMPCUzDFM-cnTQZZwSJu85xw0n3FRAyCGZjV4ZjZtUAvFGop_PT7OIVhYVVcwO_0L5ObQNxcXEPnh8FnfdUzILiDER3TL5WPDn2bkm18bf1ChfcXdOiVPLgIOJ2a-GbAYomXeoxAvEcs8mxcbq7A/D9IIlhdSlKmQafEt_Sy3Cgd--RSVBqmwRsV309RapA0"
+  },
+  {
+    "id": "LIB-036",
+    "titulo": "Nube y los niños",
+    "autor": "Eliacer Cansino",
+    "genero": "Infantil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/-Jwpw6C6d1LO0fHfkWC2qA/m06nXoZDOwbf7mIyDvKCGdZWuL_aYpUrHt2yldFSF2qFRJUIJnwQrKNCpBMfFy1nwu9VpByG3tJI7TQ--hgRo1Tly0a8PKhpw3ZpPnaD4v25FNf9rMMWkoCGF0yNPaVRzwG6Z4FW7Vo4lZGNIEPxnQ/XD_gIfsGA8vvm-rKGisUfiAXCIWbAHDV1ciVCJ5PeZg"
+  },
+  {
+    "id": "LIB-037",
+    "titulo": "El vencedor está solo",
+    "autor": "Paulo Coelho",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/P053C9FlZrDpqzOCCehlDQ/gIsigvFyIphYz9gXpifvjIub3ZNm0AnF9OXA5a2EpUD1jtOoOut_QZAPkPTjmuuI_YsMBjT8uldp_0VVcaiLCS5yt8uqfV-flyi4ivMd4_6MdsO_0Kvr8dhwgIZR8YpGtgF38W562zD3Gk-zALY1PA/Y-g5J2plS33uiPJK7ESjXg5_wNMQ_FKAfcc-6Ocit7o"
+  },
+  {
+    "id": "LIB-038",
+    "titulo": "Las crónicas de Narnia: El caballo y el muchacho",
+    "autor": "C. S. Lewis",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/gjJMGHYpbJrtfx3xYgq_pQ/tdKpZLBM_wZoDnUX7kx-0cDGrGU_ko6hnPYLVs29pkgsn5dzYKGYxx4IznMH34xQ-OMIS4mzg0gpnEA3OzwMRTkmLjoiD8zil9E09mO0h2hmpfYUKvxl-yq3O5cH1TniDr4gz9wDV9-4YoNhbGswdw/IkAZEXTaSOqeTs9nddUyADOfOPZzd_dEIYh_puDhIOU"
+  },
+  {
+    "id": "LIB-039",
+    "titulo": "Mujercitas",
+    "autor": "L. M. Alcott",
+    "genero": "Clásico/Juvenil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/6mj-_OoaH1_AsYG6zRb0pQ/R3RTSUK_OjpI4e_-pcOY5eS3hXlcgENQ5wy_CZ0SDLFAAWIp5ZtTVMSlfb4tEiAy4YV0Znc28auwT40EFKc9pMjA24TCRmz--XkJ9Z73L6xOutVo7Kz_w2dOQAvJqU23j6eLWIshyyi545fhrZjjyg/BunfbqzmrkSWoeCrpVwY0AEv2JKUXP-F_2zIfB_3dGo"
+  },
+  {
+    "id": "LIB-040",
+    "titulo": "El lago de los cisnes",
+    "autor": "Piotr Ilich Tchaikovsky (adapt.)",
+    "genero": "Infantil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/jm5sazsbh6Ll1mHLTqtDsg/M97xWC9HhtVvrvRmkNnAs9HWeURMXivztd_NAW4N7q3m9VJMRgDXST9gAYZWqgzFsOEAhfe7UehiGUb8QWSJq9ph_wz30smnkwMNXkV96UZcwtxgVOFoTcYE2c7IK1tZ4XFos6m0fYjauxbkemyeQA/wbNug8nxBIFIcqiHHhMBBK6UoP5UZX8opSRvzAoQLmg"
+  },
+  {
+    "id": "LIB-041",
+    "titulo": "Fruta verde",
+    "autor": "Enrique Serna",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/xFfi00pn0oo1V2tdeZt9YQ/_V-TFBC6-gx2yj8Uq8Tqd5y6QIdAkwiT322bdbredTMR_3V_7D1blZio6iiH3o0wcxItcFM2AyQ2QuUnfHGu85WRRdD1W4cFp3H3nHPIQoQarNIA7aYE_Lv4cm_1zsMJreXaePS7EZEVpZqCVZNohg/gjA5Aax8Rn9wqiIEz4TN2F1Qng3fjlaTT0uJ-GhmDz0"
+  },
+  {
+    "id": "LIB-042",
+    "titulo": "Dioses y héroes de la mitología griega",
+    "autor": "Ana María Shua",
+    "genero": "Juvenil/Mitología",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/3eORCvl3_WjUgwAJSUTFlA/dHFLD9eFR9-SW7RJrsjdBKVlEWQIpADOue5qpeZHdP-2vTN8UP1R5VQI2Pbnt2mAqo6I0GjibOr204oTiSKDmZXWOrnP6dnlVhJtLw5WSs1tbR0bbebf3ze6HYrjK0FJ3dTVocfoDwAc28uudx5-Dw/Pp7NwK9oTwaE4DRl8hd9zbjRRcC86wPzARt3VTXV1wc"
+  },
+  {
+    "id": "LIB-043",
+    "titulo": "El ocho",
+    "autor": "Katherine Neville",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/8JZ9WqGDs-gWNf5EUxfgxA/raHbjkBP8BAy64h8o8-Rr4TTYKRq8fDOAgFtj9E4-zgpDMSMOOWcANRfSeQtnXKqKxE8QNO6yrEcf776geCBNwPmIujtyW0P6Leup2PAEnzou7aUU72WrTvQ_nVfpqygyMgS3G7xIWxX8SEsC2IvaA/nShj5kuwj8ZHFYcQyWiVkGp_j9ggW-BqErfi4aeBtlU"
+  },
+  {
+    "id": "LIB-044",
+    "titulo": "El señor de los anillos: El retorno del rey",
+    "autor": "J. R. R. Tolkien",
+    "genero": "Fantasía",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/DNhVYjNDdb1H4x6dj_P4CA/4BjlS83djHs05Zv0iVW7P_e7FdRTEH0flW6ltkmI6fBTW-nRfz4WgG7Z3DzLU74N22_jjzDkXUzUixpRvKCv4p_gNGFbMt63Z-jWFU9K9jPJBVR7ClzZO61EjUSPqB-i-6Xd08IJ2qVGd-qvzCfong/2pSHiPwUec4b6Vl-fOp0atiuxJqF-H1kE79W0cBchlo"
+  },
+  {
+    "id": "LIB-045",
+    "titulo": "Casablanca la bella",
+    "autor": "Fernando Vallejo",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/8kx-82PHOQXnaC5pPAO8Yg/D6ZOjzLjoSs8zEWV2Ao4HGdNzeczCAD8z6RYVwiMVuwWErgyqhcbVnGFQBuTxPcWDnUCcMb5hQzwXAcyyMxGm0ulPnyaVxc-8RHRJRbduKckEUbQ2dVh73D_eZf1voM01yhL-qykUdmTe_bOpqlOKQ/Bp_l_xZJ9EPNCRjlVr96kPd9B07jPj3OKZc-aZDxAfc"
+  },
+  {
+    "id": "LIB-046",
+    "titulo": "Cándido y otros cuentos",
+    "autor": "Voltaire",
+    "genero": "Clásico/Filosofía",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/LqOTr0S7cGENp-O1T32DGw/FvhhPU4aLZ2COkhAFGYKVccZUXHbdyhTtVPJZ6iAVoydE-NUF8bNDc3AVvhHzMOurIqTs8fx71XHZYkYx2nHJujgdMKr-FLI6d_nXPBumluCQC-GCS0TRAv4i06vYIdWeuigAyO2ubV_HVAXgl-IPQ/5kakaXm0pcdbgg3Dre4loL3JwDqLFW5vuo7trBVeHrE"
+  },
+  {
+    "id": "LIB-047",
+    "titulo": "Cultura de los pueblos originarios necesaria para vivir en armonía",
+    "autor": "Partido Verde Ecologista",
+    "genero": "Política/Cultura",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Y2ufFf8lcqnwK70xEdXyYg/B6zavIh4x6tv1FZ-Lvw_c0eeMy0Wpim3d9ju4H2wvPNLEmlIREDISOJ6aCy63r1nsd4gUBS3eQHPi-lLlKhdGJ9j-OCZhYhFe-pb3HqyYdB8aR3EFoa3Ajh2rLCNfcle4XQWR7nR0RKKxx3tlaENRw/vu5OUhp2IV5WPUAXA5fJB6AaO9mxrdCS2_BpsOP0Ys4"
+  },
+  {
+    "id": "LIB-048",
+    "titulo": "Van Gogh",
+    "autor": "Olaf Mextorf",
+    "genero": "Arte/Biografía",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/wB79doQcgYH7zr36LLWEJA/5kR_UKd66uZGkv2_locroyHHf4c90O-AeSI2FA6KN0AJOSB9tPgczVwGC7MhOY9X4SPDX0ziK7tjDt_iY97gp4nckeKJ5tCPWIOZQMnpVCermH3VtpFr4fWdb0jpLvIhyfBZU6RGc2yJWwQy5a0TIw/EVy7gWJz98V706h7gz--Kiprtp8KAZcjgmoOKwCM4wk"
+  },
+  {
+    "id": "LIB-049",
+    "titulo": "Quinteto de Buenos Aires",
+    "autor": "Manuel Vázquez Montalbán",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/os43Z-OJGtYddAP0XbBu6w/cxYQnWRGUQNKHYGbyVovCsc-F9m_wwr7jVezUDjWAsozRCWRWwjepNPBv1LBXxyFJwsn22yZNwRp1caHEW772W-n-8sp1tGRzc8P-j-YaLZIoXA5I7bohkNOzD2nWr6WFh-du5Ek22QHfegm5Zpf3w/kdr1BMlW8IhBAiVdhdhUASQs68G6j_nVrBsugbWBhck"
+  },
+  {
+    "id": "LIB-050",
+    "titulo": "El sorprendente secreto del Purgatorio",
+    "autor": "Sor Emmanuel / María Simma",
+    "genero": "Religión",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Wj_UstJki5cO3_cGPlsBKA/U-kW7atWe3W1OuUnkEx7jmDtTo6FNb4N_uIWCvilPeqWlQj-qOYKygqX-F4i91kMd59LE17508zV5Hnmj5I8kWg11bWEPFNj_2cbQkH4dz0lyETeCaEscQoqziKxgHHgG9EettqB8FLCSUw_qdkgYw/pNpSqNHLKLrjfFQ2UBbqS6my_8Wik6cO2co99SEcV8Y"
+  },
+  {
+    "id": "LIB-051",
+    "titulo": "La domadora de miedos",
+    "autor": "Guadalupe Alemán Lascurain",
+    "genero": "Infantil",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/uuGVqYalL1BWI4osOrtnnw/yLETFvEeryAsofew6TKG4Lyb9Az4_MwrBfFwizQdhfbx9wb6cOF_NTCPUcn2zGX3ISOuwcVuy0M2MHxLQsIGtl1EEuEmngzDSAP_wkRn6-g2UwO-X7Uvb1RgYeu-f0T9dVAFdMHhva-UEX4ZhIxyFQ/SAh9WxYgq8j_ROCvQ8e_U6AI8grXP2CwbQADAjNVbKg"
+  },
+  {
+    "id": "LIB-052",
+    "titulo": "The Guardian",
+    "autor": "Nicholas Sparks",
+    "genero": "Romance",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/4OXcwmkmTIrijJaLeqCHgA/CXpIrV3H8GTv8kbU03dXtm1z4tU7fOB9yCHhw5qTreXI2ii1oP2TMAHKsw7T2wK1rJVkkYrAVmZndz2YM3rvbAZcKe_UZmjoMHkT9KH5xEapg2oFMUaIw5i4gENO7md2WjMgyBcQWCq_Q6IaZxW-Ig/tvkxtQj0kFKBo2wqoG3ugUXfNUtfKNE7fi1VyH_WblU"
+  },
+  {
+    "id": "LIB-053",
+    "titulo": "Memorias borbónicas",
+    "autor": "Francisco Umbral",
+    "genero": "Memorias",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/U-vwLBe2heTYRMbV_UJMXw/V3LotEvxCHo6rdSWtjVMD72H7Dss_84EXF5fz76j4SR-Rl0mMSkVe_NZ-Y_KfhLeHwGjsZ6k3zKSUaOy5Rm4p3sBag2KT3zT-8uNvxIa3TodlTXZ0EXDFbQLaYX6gAMLWqiRgBsGijMFgRYfW3Qsuw/Zzr0QdHa3ILabTlWV6yUwEUlg4Uu8DFTAkMrJ6i3YfM"
+  },
+  {
+    "id": "LIB-054",
+    "titulo": "El mar y el miércoles",
+    "autor": "Luis Rodríguez Macías",
+    "genero": "Novela",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/iwHLBOdiNRuTapGdjkBcfg/wHHVM3L8HxO2PCcDmJJjedXzALSFFIDmcIdt6gArPb6VRDr98ST_DXfOKjveFLij7-Je-J-rA5YlFnHzMEPP0Mg4HWFrVQPhfBlpVCXz_6lTQqwzcBCcEoURAenEN-KLtHZgdMrOn2jyD5isVw6ddQ/TMhG9oayTsc-kGYDWsB7Sf2UG6Ace8775spizrxYDF4"
+  },
+  {
+    "id": "LIB-055",
+    "titulo": "Corazón inocente",
+    "autor": "Linda Turner",
+    "genero": "Romance",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/OH5kId_rZKIWDTWZ4231Ag/unm-BtEC8I1p5onpnN-tisuIPh7szJlyoVc-e9ogNbnczts_zi4N3cZggaV8IsVcRV-okO6w98IItiAtzk56cqH7yJbxobDfwNcip6ax5OcRnoMCXjuAsZ0zDGCBIjolu-Xa3rWJt8_B3bWqyTPuvQ/f4RlnDnR35OiiKRpO0roOZj-D0s3jGJPUBji2L-qxTE"
+  },
+  {
+    "id": "LIB-056",
+    "titulo": "La patria y la muerte",
+    "autor": "José Luis Trueba Lara",
+    "genero": "Historia/Ensayo",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/1HSuQOfhW2B8NeCP76LRdg/50vlqU2pD7f1VQAjFJ8S0UTone-O55AVGf5JM5FjMy96yREaUoIWMPHUqKcvZ2uujAm3kTKC6atecn2sMynUYZ6m_L3dMI1swL6cbG_EhFS46YPkFUbUUBRi1KNwPT4MkcdjGrblnrbjtMw1Xql9Sg/Ur3Be_VUmiadUe8-74e79yS-lXXoo-sW_iu3-BXZOs0"
+  },
+  {
+    "id": "LIB-057",
+    "titulo": "El país de las moscas y otros relatos",
+    "autor": "Sadoth Vázquez",
+    "genero": "Cuentos",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/vNqBuRl010lZe2n30AodOQ/T_UHDvIxUuiTvV7HeHN2YJq0OprCK2A2Pexi6OXR3qYd8iDhZg9aZURJYx1-xD-6xEiEBUmk8XkB_Zi_65vgzSiIDaA1EosumS8FXsn0lzi9G4gnJr3U_MeTCYizVTYsaOIuh-tNSuZwq0kna9U3Qg/W-Q0RfLTrRT3gHLSkos-LtAU6nhyey4yGCarAcBITCk"
+  },
+  {
+    "id": "LIB-058",
+    "titulo": "¡Vuelve maestro...vuelve!",
+    "autor": "Alfonso Lara Castilla",
+    "genero": "Autoayuda",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/zXCuLTsN4tPYfeCtPfZhAw/g6BwRbOR9PYfFI7YDKM10DgXdQKxViA3z-KROKBXX2MBE5I_o5-y-V-548TykFtevs1IpRZJjYr5PXdpFsXv_iXGDenz8_2v4LsLapJrHbnECkFZMGVQ7TYJ-2JtsjjHb8fHkYOvD3emLUBM6o0qAA/Fnebg2qHxpp9SGkop5x-u3_avFukawxIHdy446xIU54"
+  },
+  {
+    "id": "LIB-059",
+    "titulo": "Cancer-Free",
+    "autor": "Bill Henderson & Carlos M. Garcia",
+    "genero": "Salud",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/0pPLmTyQqZw8LPSexLukRw/Ab09-2mR5CYlyGe4CO4-XAQfrjsiRtUeH97AxTMgTib-I9hgenVJHLwdHBjjEE_cGXOVrR_tuCLt60nR3a-Yjny0TvmpkPgD2RGOP1LA1Dxwq4PhqDEosnESvZl49p52KV6N1p7j4OHRfHvwT0G0-g/BaMnvZy7I3cAHTfMKWd2jZmYVkXhmxvM2-DK69ro4HM"
+  },
+  {
+    "id": "LIB-060",
+    "titulo": "Frankenstein",
+    "autor": "Mary Shelley",
+    "genero": "Clásico/Terror",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/OolUqSnH_1FNBC0lQ9xLIA/a9fBxjDqtgUzrxWldSJK13yRwKUXdjOflDkCD0tN-Oduqo4XifUfYqJ7B5S9ZPP7eZ7AHnfCqe8Dp1ynd-5uh7KaycsG9Rmq7XyGlWTQFMp-rIMkCre8GUyvwr1js7Z40zRrBRiyx3GDMl0wN7Wd0A/6UnMw07l1pIbRZp2daL81QDqoh76tPQoN9k4ZfvrDdw"
+  },
+  {
+    "id": "LIB-061",
+    "titulo": "Hush Hush",
+    "autor": "Becca Fitzpatrick",
+    "genero": "Fantasía/Romance",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/6p52rBYqzARWopgAPz0z9g/dpABMlaHjQTe9foPqjPALttaKfqKlvpr_uzNeNbgqo3d03O6juPR95YrH0T8X1GBBj-ka0dMZ-Ja0vYz2qr_rDqSgLwbdmyTcgetDv2BaACZLP8g-qmJmGfj7mDTEGMEqwdvO6EfLsLLpowyClutNA/TlPETkAm_qIH-SboOmSyo1Oc5l2iYr2XzLSf2Gc8hxk"
+  },
+  {
+    "id": "LIB-062",
+    "titulo": "La cabaña",
+    "autor": "Wm. Paul Young",
+    "genero": "Ficción espiritual",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/B8c7Vb-hWDuBwSUdZTQyYg/4t9cH9dqf5zDtlMkCFIR1xiMSEcwqdTxzshL5aSj7Y7yzUYglQuRYWzB_cj_7q5HnzwdkhDNuGEK3aBxnXdJgW6rMv81jGnNOHz4on30r4Bha2Wke5dAvJtGMv8bnPfRt3Vzr536exK5OYxJC9RpUg/AgFCFZvHY8r80Yr3YnW4klVn4p7sterL-6tzwmLSvkg"
+  },
+  {
+    "id": "LIB-063",
+    "titulo": "Te perdono ¿me perdonas?",
+    "autor": "Gabriel Herrán",
+    "genero": "Autoayuda",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/WdPzJ--_8dnB_4rMBrA1aA/5pHr9iCc45YmDeW0BMKRXVERxQh6gxAJR7GCDdhGgmVM0COLssXdHukF86h0AsWPATMzhf2nbOlWNevwCtZnqoBJ0mTcb-FVeA-QmCwZKHac7mUPgidX5kWFL6NJgxJDgq9U4lRtZ_pZhUcAvyS8XQ/RN_AqKji9L2OwraBoISd1J3ikg0ZTIh80qjvR-FanH8"
+  },
+  {
+    "id": "LIB-064",
+    "titulo": "Landon: Todo por ti",
+    "autor": "Anna Todd",
+    "genero": "Romance",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/35NfPtQVtfL1p-bsBrnwWQ/OFSMH-atjq5kXGriC1m-LWuKTibPFB3Geoxbzo2VSDwDHhK4j3JbS1kTkfU4VZg_legPU6K2F-LuYgP8ffsEQvunL02pFNiWPBD8bOVPJbK_FDymkTucfGnoxZpyFcX_qULWYNs7M9JwzWK84jor1g/X40PiQCvRoDmdVcV2-2suIU95g3Qkr98xf_pO4Se98M"
+  },
+  {
+    "id": "LIB-065",
+    "titulo": "Código de comercio y leyes complementarias",
+    "autor": "Sin autor (compilación)",
+    "genero": "Derecho",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/_noRCZIeCWxPSvymMviyow/e0zPkiPHEF7Y_pTZwhf-8TihBqNsGfX-7iYOfFEAIUgsirg2wXc8sTTUk8utsgzqw1XM588TnptVPikHh7m7OVTXWF5uSzZad9dJF_JrNLNk1r9PErH_VeLJt5JdLy8rc42HlTKIRCBEpocOFAI6tg/UusngQL72RVVs2YrnRjolW7rzqmK-XqNRpRiqYhFs08"
+  },
+  {
+    "id": "LIB-066",
+    "titulo": "Siddhartha",
+    "autor": "Hermann Hesse",
+    "genero": "Clásico/Filosofía",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/xogNrhh_xupMgmZlesySlA/jxS9z8ta58QhtJnbmuStxJq4AVvvGx1kpKv3jnmpBHpvIDfUT8tuLpa-LfUkLNVfynhB3fPCTO4YbrVPFKezic0YxjwjDFgZ0848vLATUzZ8knT-VldxUj8blI2LYZIQESsijd2bWUq_vFGN2QzaLg/irAwEg0EYTP50g3bjpi63NZEij9v7oddxpumkX55onk"
+  },
+  {
+    "id": "LIB-067",
+    "titulo": "Rebelión en la granja",
+    "autor": "George Orwell",
+    "genero": "Clásico/Política",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/P3Dr7xbGWE37iikDNOJU2g/j_FDNicmXiBipQ5nT3OrhxZAnZtiWNvgg0zpFyvbhBvaOe-ko-jmZhl5sPek25WpEhSkDyEoB9MtYS1FK3QfEhWnOYw-l0U_ROY3pR8IznuJ5sBVr-xbv2VOJACEuni6Knd_hTfpCSkXqfTASQyxKw/WmpfDdJP_JOpLjiUChuuWex0oM1wEIY48Ms7qn9gZNo"
+  },
+  {
+    "id": "LIB-068",
+    "titulo": "Barcelona Connection",
+    "autor": "Andreu Martín",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/0yPBnbeFgYy6SsH8AfFQHw/7B53DwHkSE11QAS1xc4RGaA-jmahhx8Ov8brdhyyL9oSzrvmsJwcHUdjxD_OKdFdbrfpaC_xtZPTEifW8M0m-oTYA_sXGWI7PF2dpr267WRKH_O9JmzD8C3D_z_cuEnYeJGnJrsN1Z9WTn7g3LXAtA/UZRhBKazYqLpH6SQOrKwFTPuC34aqB6EGUI7PH_HQnk"
+  },
+  {
+    "id": "LIB-069",
+    "titulo": "Se nos cayó el Kremlin",
+    "autor": "Francisco Pintos",
+    "genero": "Humor/Política",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/1q4i9PR5rk0qyPqXCZsikg/4Wtq2LyeMNAnMVhF3Yjovq24IIrpsm5WVScF3DdSdgvaVDjP-QXrRFAsrsw5XNLS1Z21EHM2TX8Bb53zv8nYY7F18MTvJo9RLbfcKc8wz2Z1E8dEXzJgotX_YSkA0tMksEOjz7sFC7FnMoGVuo45vQ/s4o-6_8ZsR3qi7ZlEXbW3NvG3ymIQytQQl6iKpE7e2M"
+  },
+  {
+    "id": "LIB-070",
+    "titulo": "Bajo la misma estrella (copia 2)",
+    "autor": "John Green",
+    "genero": "Juvenil/Romance",
+    "cafeteria": "Chatello Av Carranza",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/YMDH1yevLwE2SRzyh53Vlg/sr7rubiU-dZZ_CySbHraZth7bqsT5q_P339V72efdhXK8LfzDQF389GM7WfXI9BPbFPkQhZK0IS6KHnlFIgAcXmeAIH8U6sJoTujdsDijHAnFgvfVIlfmTsRZq_4T1UQzPRqlje1VDA4GX7cy2V3_Q/uN2k87neSl3oMZsizjs3h7DFvf6IVqoYbuKuIE_Y4FQ"
+  },
+  {
+    "id": "LIB-071",
+    "titulo": "Cocinando con Maggi",
+    "autor": "Maggi (marca)",
+    "genero": "Cocina",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/p0KHWaX87UZNVsrX3yZuuw/nTAhujDHMWI_-Q5FDWeSdohxBgnMf4woXe5n38SBJRL24KEpObFtYk-4aY-tmKUMdupjykGhiU0dcfD2QkqPNby3egHsZ3LzEXZfOpMcvwercIa_qymHc_J-QQCiQymLTHec1tAwDSCmueVwe9bIEQ/72eJcBLBs2JoJ_tgd6iKPAxXbjcWw92LmJL7UCYHllA"
+  },
+  {
+    "id": "LIB-072",
+    "titulo": "Las Recetas del Clavel",
+    "autor": "Carnation (marca)",
+    "genero": "Cocina",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/IstQBJai6Mn-cMbccxpz7w/zTF_cWz9APr7HACv7m17X32cSelN58nFsILDSyZJvMU1iGyGd-LxO-NF_bhUdtN0leMbouqbKMv1i6lFrXylQpRbtSF2ybSirgWEsMFeUP759Wh3N7Vq4Erjo7qkmC28KRSn8PyfsXjqWw0nsVRNdw/ajccwIoEHFXDo7A0iDhN_7wT2bj9gIku437q33j03iU"
+  },
+  {
+    "id": "LIB-073",
+    "titulo": "Secretos de la Buena Cocina",
+    "autor": "Selecciones del Reader's Digest",
+    "genero": "Cocina",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/pSByu6YkakPf6mD8VpwnAQ/N0n5wBPDftvaa5Itaua63PRt1F9BR8K3OIc0cFy5LQ_8APsqsEoNneom1GjLJDZA7lz0lK8Wq_QQvE8gTo824fPz1OQbddVEXe5h12y06ZSgUEYm3ia_kqj3dOhI1EpqrbHFlI1G9a6ef5GCn6fyBA/35MYNW2slOT76aXO1hfL46XLeGgPqG8Jh1kvWBk3E94"
+  },
+  {
+    "id": "LIB-074",
+    "titulo": "Perfect Thai",
+    "autor": "Sin autor visible",
+    "genero": "Cocina",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/CwKNPFeYBl07gVaNz5qtvA/yAHJD338toYDJ8PPUcetkwPtjNDD6GxBTuyABG87ziNeXZGmTo4rXRAh7FTYMJRv_WU3EP1vpyeWakpwYDW8ng3HQBPGgZkUUAlXW-RivG8t7MujvSa4mD_J1403gHe-LPznJlU__FFmsWcxqHAnEQ/pqJYh1Bc93RBa1mSZdkBJ5jUpq9f5a8YAol3MZ1skTc"
+  },
+  {
+    "id": "LIB-075",
+    "titulo": "Dulces Sorpresas",
+    "autor": "La Lechera / Nestlé",
+    "genero": "Cocina",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/7a6jV6cHAOkG571OUME1Ag/zDHeiLtFvsTbcWNAVoCcrF-nBVUYCDocsD7tUg0XpOFT3E3hKaeXESqa_8DaiR8DKUdrqwFOmQcSZzMNVfbmUtJJ4xEvRc6KqdWDukY4QxNe_UQBo75NdiWqPEh_4uqQV7Kx5aYX9L9m8rqGIzv4Cw/vEBsJoE8PkcbEOLawVFsosNXEWSSz_puY6M6x6FrKJ0"
+  },
+  {
+    "id": "LIB-076",
+    "titulo": "El Protocolo Sigma",
+    "autor": "Robert Ludlum",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/ZvPpi30x6P2yxY3rbRip8Q/OxsT0ceZ6spdHkOfglf-YB2sfKzpOuQ3E_olBlGUtYSU3u_gwq12IudPjWOtJZywKK3JGixrQIGH-TVRydvLG6sb4ixArlvuVXoWg6YH_bWSY_EL7n2x0iU6QHFqSqekx7JuebdijketqeHP_qEYqg/6j9bXLgPnngzsxQvvt9bamw2VnjiI8ShkCJLbV8E6fQ"
+  },
+  {
+    "id": "LIB-077",
+    "titulo": "City of Ashes (The Mortal Instruments 2)",
+    "autor": "Cassandra Clare",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/e05hV8rlZmiUMqXF9g_7FA/ou5Gv4w2v7-2COc24Eoi7sYhIWrhTl7J_KXxAefsJke_XLilkOR7DQgzio56gB2ih164p8bZErZ5bFmSIf0NTP-Ou-qFRFlsox1vToyCCC2Vb8GdPyiFQkjWKbUrChHJzKg13LdWUfY9wGHUrvtynQ/jpyG6IiKSbVU31zFw12dCTxPdv0V3S35BhEaW9Gd3uY"
+  },
+  {
+    "id": "LIB-078",
+    "titulo": "The House of Hades (Heroes of Olympus 4)",
+    "autor": "Rick Riordan",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/vrC8jQ5kufZpjUt2h7MOpg/jngar5F9ax_fYtTbnep7euDpmY55QVnqkkz_elLpjyiMXHk5uyLZt8EhSKD2V3748cZ9acPmmKiBUmjY0v-I2A4gSV7nuNLyvsg4uY_LNtJu1b5kaRcbn06pV9oP2op8-ZEOW43YYGSIfOwb6JwOEg/lWGroNaL0dFApqHFp4KoJgr01vbcn9Gf74OFHpuvqKY"
+  },
+  {
+    "id": "LIB-079",
+    "titulo": "Los Cuatro Acuerdos",
+    "autor": "Dr. Miguel Ruiz",
+    "genero": "Autoayuda/Filosofía",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/ruR60dGf4zIORN0s5hiWEw/K1TQN9bvYwJX-M89Fkg1PST0zbJsVbAbDrTk2SyzTWpPvKMwMJPpBqhPz3Wr_NNXfasMqn11NSZ9HRzCBuEr7Wys0Hjme5F2O8BZg5DD82ZcraHAm2ojsCX5UwBzD2p4yoBSM2xf6QQxGmVUhXMKyQ/Fg0eYPpzlsJCRdntQy0BGhJmjlR8w5ma46E50MLVMuk"
+  },
+  {
+    "id": "LIB-080",
+    "titulo": "City of Glass (The Mortal Instruments 3)",
+    "autor": "Cassandra Clare",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/qO64HcubCrzd-HnShFh8kg/2v7Wd28KwZS1Qogmkjsg2Hsz-_JkJoeZBlVqPO1JHKl1axYcSXvAc3ch-nTqEYxShP2Bv-5JvquuZJvv1dECkEjgb6fvWXj4_ElNItZuF4KmYljd-m838r2kz2KcocomY68nRzJIb4c96n4ehW5HGg/0VULkl1RZ838RK_9A57-_DT2hc_enbvvg6ZUpVKSyKU"
+  },
+  {
+    "id": "LIB-081",
+    "titulo": "Goliat: El Fin de los Mares",
+    "autor": "Steve Alten",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/wzwIXnaaJA-ekrRc6000Xg/QwksbJSDI1Gcti9kCTQWull6razOruWlmDCfELkTGnR_8nmizjZoSwuFguazk_8FCogBIc6-5ylLff39JJNvG22uAII1y-WESd0noq5UwwM60BHd26tNIkkjgHVBLFPYC4cp6HnJ7RiEsaPyU3BdnA/Y1WFhhj_dL-8Ia8TY_GOMmThQCjOjEjfltp6wgqxyhU"
+  },
+  {
+    "id": "LIB-082",
+    "titulo": "Crepúsculo",
+    "autor": "Stephenie Meyer",
+    "genero": "Fantasía/Romance",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Qiwa1hwuHoHPmx9KFOd5gw/QpYA0GyxXSISMqef1MGe0to8VIgMkvCu0aCr8C6JS0CNpQNRQegFMcoi0y2N3NfeuZpYyfiuqDt9vB1amK7Ig_l5Q9mDqAoDXr8BwTN6OJreKCum4AAATuFJWWGv8ry1cse63PZvui6jGfo_FFExRw/JIRoxfdc7ipeIkSccB8Nx9KHJobdmF_YBBCzAfTM4aY"
+  },
+  {
+    "id": "LIB-083",
+    "titulo": "El Héroe Perdido (Los Héroes del Olimpo)",
+    "autor": "Rick Riordan",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/NKvb_DpVABYpAO7eI-sKNQ/FoRIvV7aFbPvBE613bSOl11UDJPhx88hK-KBE0DumG36hF6z2I3uJ4xDTZ3Jz9z-FInLUKyTHltR9dQZg3Mkq3BKXyWGP4mtJhg46XOw-coZ3fjAj6alnBcgm9u8Y8F7hV-1V-ei5nUCLhwADZtgcA/g42iLOdQcajR2m_EjAkC5hDKJJkfq_yyG863nz5pi44"
+  },
+  {
+    "id": "LIB-084",
+    "titulo": "Y colorín colorado este cuento aún no se ha acabado",
+    "autor": "Odin Dupeyron",
+    "genero": "Autoayuda",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/XWvzCtkOoeyUAy-AVrxyjQ/_sYzO5tZpn15uFLimUYwyeaA9XzjPcYg4819omsagZyAohbF6R0PSL1CMltarbL_JMzc9gq-4jZQlrrHJxDiHjC9OkzuXuhk3G5pT9kNrWp0CWDDMtT3HQssGyXWSGddWKl2rCjVfTcKFt78hMBmZg/CdeJU2LR2ssGga6uENLEx-6EwDXfjleK2K02pX1iEiA"
+  },
+  {
+    "id": "LIB-085",
+    "titulo": "Stone Maidens",
+    "autor": "Lloyd Devereux Richards",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/r3e5K9MiJJPRow3HN9rxdg/YqQgXzg27BkzJ62nmJMQ8XU7EZWL2Is5938AndW9H4Zvocc6hKbuwGEskoJC69Y9AKVefozApmtIlzL1EsyarbrGkQLWU9FGzcYJY5GJ96pLqZRx2O0YuaGAEpN7kUlmU_706xTgUQi3Bu87fbzKpQ/CCwxDJDnMVFoss8cSW8kMI1pSw-4a1XvF-eLUlcF_qQ"
+  },
+  {
+    "id": "LIB-086",
+    "titulo": "I Am a SEAL Team Six Warrior",
+    "autor": "Howard E. Wasdin & Stephen Templin",
+    "genero": "Memorias/Militar",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Swk-eu2JT7DjmpAo11jDxQ/K5_KwdjfN2vPDrILa_BbeqiBrs-GNl19d5w_IHRZg3BnILCnEU1g33UWY_vH32oQcUFkqSRi827E568NcsFBzN4SQUd4yp0hRadMmYmtSWPD6t8PZUOa19vjA_Mi3TtDmq0SeQqPpau75V6jdByz6g/So5MBRXQyD2MVawGu-1cJMKCjSt0R_wGYOOKEOgLkmE"
+  },
+  {
+    "id": "LIB-087",
+    "titulo": "Cuando Hitler robó el conejo rosa",
+    "autor": "Judith Kerr",
+    "genero": "Juvenil/Historia",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/eaWIsvXOHG18r4aVOq-byw/U-bum074Wql60875ant-9in2BdlqW7BdPDS1_Svd7blU2QUptYc3QBssW80NioeJCmyj6VlV7fNEDZy-SPXKFy_JiUYE_IfLBoaGhsIStQX05fLWYF6TRBPXo8hs24JFIyDiyb4iW1YZvEcKlM8k_A/5cJQrpzNSNVwzrYsbagx-Z2n_WRL9Qhj6MW1OHnZWII"
+  },
+  {
+    "id": "LIB-088",
+    "titulo": "Wonder",
+    "autor": "R.J. Palacio",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/fzX-glsLDocxl5_Nw6q-hg/s-TVHryVjGCKbflfAni2MsO2rYZxQgthZD55KcFLdIs2rZymki8lF4RibjSUOYsR65wUhZ1ws7yOkh6LFZ2rozMcjtp-Uv6ywblJ2KruySLnrVTJ2X8vxj7tHcl_O3kLwPlQsRRvAO0GsYBH-Wzl3w/gk9mBi0Tf88tRmiXHSpEkilf4tojoCxx1cSMz0wVqNI"
+  },
+  {
+    "id": "LIB-089",
+    "titulo": "Der Mörder",
+    "autor": "Simenon",
+    "genero": "Novela (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/iXzFpYcRsNTYXVE4_rB1SA/wDlMwc8UeSyY2qnSHJ87PebdnccgTrkENm30NHDOZk6aUlhsT24m-gTQZXGyz-ul2xLjZA63RXByk_nxXCksR26NIuwTS5UreVvCcTC83YlabjXyd4oIt9fjqnUV2yaE15nTBrMIJEBTQIb--TvqLQ/MaPP-jIq8qUmzwzVg1-14qqLXt8Wh31DmZmKgcsxfNs"
+  },
+  {
+    "id": "LIB-090",
+    "titulo": "Die Vier Versprechen",
+    "autor": "Don Miguel Ruiz",
+    "genero": "Autoayuda (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/-Nj2vbL4vZ-DOKGCtqZvZQ/eC2Q4cy50IX65tdpeXkT2Xl0qcqw8L-lYivw_uHc4FeqszsRgJr8YaFXF0R20BVuEAjDsIMF1oD6oAfmiO3z3BGeTVnJHR07XcR_XHTjUYMBEZK-4JQ0jQLwlmy98dy14JxxyQgXZ41TU_5LEW5uyg/M7kyH8CUV6UQzjM8KD4_nP7l3Z135JnjvVyzwhZj-VA"
+  },
+  {
+    "id": "LIB-091",
+    "titulo": "Bosch",
+    "autor": "Heinrich Goertz",
+    "genero": "Arte/Biografía (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/2XYz9OxIdX5DD9V92cHtOg/j-N4Iboqywmi5yMdXrLY9ObKkUGNVBghHiy_jt4anliZ-8iXcJCLrndm7yAgbGsg7ipM9oJl7mQ9eIdOAvKSkJkskSvdPi_bNXoUTYgYLU-HrNLKU_-xDsOd_PMjbI6peY47hVhQ_8uL2I7GBcdRaQ/IukomDpPq_UOZhOTHL8rQzyKf-GOepCuJXRcjPE08lY"
+  },
+  {
+    "id": "LIB-092",
+    "titulo": "Duineser Elegien / Die Sonette an Orpheus",
+    "autor": "Rainer Maria Rilke",
+    "genero": "Poesía (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/9O-PeKkEsBzp3JqY9I3e3g/7i8Oh0TWD-JS0xuM5qeY0-5pIypOjskMhwWB2gXGGxoaG445vf-W7LIoNwbb0b0n9OWJVa9cCMef4bxfFdhhkpxqkKv4gcatqt90P0syLT9Gch2NOwQ0yvWthLVA1DeuustotN1uGCGOTG9NYRHu1w/UQlVBBPirzuZcH_rfqIdCGuw_TptnvGhAdpcHd1u6Sc"
+  },
+  {
+    "id": "LIB-093",
+    "titulo": "Kalt ist der Abendhauch",
+    "autor": "Ingrid Noll",
+    "genero": "Novela (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/f9O8dsGeKbagpBAx9NufSA/hVuY6hB4vOep1zuE1DRiGCot8rBPtRHDa7A_KzVuT03MyxJzeS5PjasavEtIq3DOeGbU10J1iiL67Xm6tmUFJR785w6ib1IvH80clUlJ8RYiP30k4mKLZsOVLn618zA1R9yoqmDtQ_pbBnaTg7HP9w/gAuhbsoLYZ9_iaIhXS0ECKSpBnpyQwwMdIwrUAjrG7w"
+  },
+  {
+    "id": "LIB-094",
+    "titulo": "Verlassenheit und Selbstentfremdung",
+    "autor": "Kathrin Asper",
+    "genero": "Psicología (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/bSdFnCL1-r92v56MxpsFSw/xmKrM78hOOLrlYY2tkE4FouDk5kKdfyzUM8DZVPOM42VvVPLENDD1JKaYbm1U2xfRT7pNZSRaBiW2sul0KIDqArOE14GlfgYcqElg538kMZKGracrtxe_S1VKFH4-T_ZQVptgs9P7dRm9MWpylf2gQ/DHyRg9ynHsoMDFj2biy6hknZQVx9keUdPg7HFVJR8Qg"
+  },
+  {
+    "id": "LIB-095",
+    "titulo": "Little Women",
+    "autor": "Louisa May Alcott",
+    "genero": "Clásico",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/b2aEtuCe3_Q1DvBKBJNBBw/xeHCEqelhE4DZW-ny4D0xQhLqxmAWhu43nPQ3EG2RqKqObZoFW8FxjolF1LSZOsrimOeq2ovJwQeb6GY0_b8bi2UwwtuKW_YLT9Ks1CLBdb9koGB3CstfU5Jn1xYGc24cfpPiXVAKTMnSB_oeUvHHA/ljThVw2hZqL2W2EKc6rMjw_mpLO-Ks3zLiesi-_a88I"
+  },
+  {
+    "id": "LIB-096",
+    "titulo": "Vollendung in Liebe",
+    "autor": "Don Miguel Ruiz",
+    "genero": "Autoayuda (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/rxuAtDHHhLoeTwlyxPpEhw/un4BIZvN9QPN4T7e2MaJlTaxaa8N7CKBrloX8doJK0WyLXrRuhS-th6vktwe7Lmt_XivyfpI4xm6VLTMdnmWzdAG0FFKfKYpzc9LGUQOCfia6B0aG0kYipbC9NpPCaq3WdGvW9BL5B09Wa790O30IQ/c2P8dTXr-hKFZ7ClVXOtOQze0NBF3hPBmnre_ycl2Dc"
+  },
+  {
+    "id": "LIB-097",
+    "titulo": "¿Quiere Vd. saber Alemán en 10 días?",
+    "autor": "Métodos Roberston",
+    "genero": "Idiomas",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/fqDdib_CDvTQ8OxkmOX5MQ/CVbznuy_QytNOceS0HQPVyWf1T9nJ7wQG-KauE0eniQpIJ9QlmVpP30fkDV--vZBOqsCsgFIg5LgvHTDO3SoXphfaJXIKCPV7IkilqgIFjb_j5xbKCZKL9Sk3cYQ2htmX7sa8LB1vH1r5ooB7uoYfw/I0gyd2wDdCCwL2ldVSJibKcuhjTnGFK85K4-Hrwulj4"
+  },
+  {
+    "id": "LIB-098",
+    "titulo": "Viel Spaß im Urlaub",
+    "autor": "Uli Stein",
+    "genero": "Humor/Cómics (alemán)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/nziOY-pueFKjfgMSTxz1dw/eHK7Uvg66mDLjTuYq9pR02Q6_6KYLyU5WNj5zCbzzMpC7EUUOSOKeqkqsWyP6YdUsDDCj3SARpD98nlvnzNUKKoUkKQog2NucoPCOicHrUBbV561zhRt52mHNCTSxOtwoGXEfdXe5WVe8fEQRBgZXA/JxG0hewJPwBDuVM7DVRGZ-fCtSMuzzsruP2yW1ltKO0"
+  },
+  {
+    "id": "LIB-099",
+    "titulo": "Crepúsculo (Un amor peligroso copia 2)",
+    "autor": "Stephenie Meyer",
+    "genero": "Fantasía/Romance",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/Go5giQyQZRlC_whsU2h1Lw/SMnoHBQL62jhH1VAHooTVCONlM-0LKsZ4TKLdGUvjnQNR93anvUpS6V3TbF1Hn3D9k54jiEy3-iJsuks-133MjAAoFg92vOyzs1DRWM-aAisRT3yPYVXRd-CcNPhswCwPR1AD99EZsz9t620ybvQmg/igqixa1KCt4WKsKl6PTscCI_fSe5MY5IbhmDyNEYVDs"
+  },
+  {
+    "id": "LIB-100",
+    "titulo": "Amanecer",
+    "autor": "Stephenie Meyer",
+    "genero": "Fantasía/Romance",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/dCQT5OkyjGRjFOIu4-SYNg/ZuVySAfSZSDRZZiZ77rX-HeFlm_j90Eu7CRC-VlkfshglHm4aO2jooMXCX1PXcREaEQdVjuYTNF323BKYvFGeJlGO-tOSSPpagF7HTlQxyOhufczxvSWYDDJ2Qvh_df2oDSxwB48Ve9YP0pffVfC9Q/VZFlx6BaQPafuBNDotZtqpYOWmS0jQBZTtDyLphErVM"
+  },
+  {
+    "id": "LIB-101",
+    "titulo": "Luna nueva",
+    "autor": "Stephenie Meyer",
+    "genero": "Fantasía/Romance",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/IHkbxKQosqM2hHyV1a6AQg/org9ZM6uRrR9KfQ4B7BoR7Id1M3Ws27J-RAzAWOVoAZ3OgYKKd3I0qMwIzthZrY3jjHADYbD3_DDCXgiKo9zPmTc3hdMBvc_QOc7GfU_bO9JbynmLN0ccw0y6kPeRPyVv86cFKw7v8zLHD4VBxB0YA/aWgPPgZhj7AYC0VOlqNZu-MRMhF5WzZxQD-VaG7GS08"
+  },
+  {
+    "id": "LIB-102",
+    "titulo": "Eclipse",
+    "autor": "Stephenie Meyer",
+    "genero": "Fantasía/Romance",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/gykiND3pVOjHEAcpkNGBBQ/d0fAOL8MqCyurJ8gXWS-m3PjJB4cuQaRchzHGe0IfG6EdH4X-3PlHyO7Jb2yYZl88eHHQvWYSesj6LZzQnhtsKt92cYartBy0Pmlk87537UAlPfUnIcTupoF24i21F3NrhoDcmEAs8wKm_-wqecGbg/hqgCaca6rfG-JHNIxuayUBbYwz5KutPoG9JsuyiV8CM"
+  },
+  {
+    "id": "LIB-103",
+    "titulo": "Breaking Dawn",
+    "autor": "Stephenie Meyer",
+    "genero": "Fantasía/Romance (inglés)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/CvM8nBMU7ti2gKKHtdqfjA/qBGN6qEUwLmwFlICql2p0GOlNAV0MwEUeurznbbRJR-45bXvdRbkAYo5o-5Hp_dhDToWi8goiXnT_ccZ1GrVKBfB7wMESBEkiY8g_7_UJWiyz76RPpVYmT_zhj2Z7CiUCbvC5EE0VROh0Dsy7Resig/42R2n3MaquniwUWELevfGpgfnTI5Ma7B5Uq78Y-xzAg"
+  },
+  {
+    "id": "LIB-104",
+    "titulo": "Los que vivimos",
+    "autor": "Ayn Rand",
+    "genero": "Novela/Política",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/rm_2lkQFTV55p0lTO4u1lQ/WBKX0xmTnVXEKAjCY_vJjGRA-CQuRuGDKfRS8V0SEBYgWzYJGmM41yuFDKp00OnPpV5czUT0zheWE0Fva99DAL7j4Q0NpaJgT9j5f9_xohKRgRNa5dSzyw51gx2wE7WX57VfCTv6TU-SXs7ZUQZLOA/R9lexoLE2E4GKv7tiVnxMRTcvQU21rsvV_PbwZ3waKA"
+  },
+  {
+    "id": "LIB-105",
+    "titulo": "¿Quién se ha llevado mi queso?",
+    "autor": "Spencer Johnson",
+    "genero": "Autoayuda",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/YIyhgLMgBvAJH3GzxePS_A/wVEO5f3CvqnfHo8c-wRQVBrDP2AgcycqoHkt7vC0oU78WSmFB_4wlcdVIRsn_O9nEqlo0QU7gbU6XmfJhUosNDZkVsUymjlAvAdv5A-qiDROPI-Uh7Q79cff7JrbYRHw9S_8j0BEv2wUSQ62bzFYNA/iOUefqJnU9h2T0EAIPAWl67m-mjqvMVaeecWkZLorBI"
+  },
+  {
+    "id": "LIB-106",
+    "titulo": "La casa de usted y otros viajes",
+    "autor": "Jorge Ibargüengoitia",
+    "genero": "Novela",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/cR5qZHCO8BJ3jpLGCrk1Ww/6xhDVnkmr7Q4dyXwdixtZGijCRMAcQxQcqF5O3LsohokHV7wnCR_7Tisvx5HNY_3hMpqsKhNw0wpKLr7odOYFkKjDOmeOYA92okSzVsqptYCWvNJvtjkcGj_Q1muIoKMwmfBnhP5yiqHqm8HDl4jwQ/G-trKuYnEKT52AXb_nEN-cYjbINeqNW3ClUicj9J1ps"
+  },
+  {
+    "id": "LIB-107",
+    "titulo": "Relatos Cerro de San Pedro S.L.P.",
+    "autor": "Miguel Ángel Viramontes Reyna",
+    "genero": "Cuentos",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/B_8CpJZb0nwwDhsOoRJW5A/wTEpY__m5d-tuFYBHf7KuBHKVViYoQTsFXoaVTw8YnW3Ploxio3uxuTp_PeQSyvI2hSuWNcy0IlfkOuA5Yur_RCGdUgA7tJ3oLv3WwMOuTstzuADUN2eEieET2bVa-tW6T4S0xitCWTvRHm9PUJx2Q/ugwXvpPpKHgD4RzF2K7VA_ZFRMbfP2UpQBpa3Sgo9HM"
+  },
+  {
+    "id": "LIB-108",
+    "titulo": "El viejo y el mar",
+    "autor": "E. Hemingway",
+    "genero": "Clásico",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/BqTxagqEfpXcHcdW_sNLjQ/eUphiFBHmr3CUgaN8GRyLlM4MxRp9joaKlHFeDYg1J9MSJyJyV820wpJfV7PA26pwcnWPaL_na7VaCbF0GduwMnWfzLsFHvpH4hKAD-bhnM0OoamhdWriSniNUx0jLx6z0XdBy29DudsDYV0OQn3Zw/14NQQIhbL5l0SYNLyAKFYAdnk1mEoz6_SEisV4uKm68"
+  },
+  {
+    "id": "LIB-109",
+    "titulo": "Harry Potter y la cámara secreta",
+    "autor": "J.K. Rowling",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/XE-0wZJeuN2fy3fMpmpSRA/Jkb17Vk6UjQeI5Rrs4g3DtF3quNvT8VDGlajLSDUuYLTYCPGusCeisjjWitt0zMgyzYku3xE0Ru88Hgu6hMOsurVR_mggbYlYP9OmOw2PH2L20IfO4eTm0um0zwuOZagyNcPz8zoMXY0ELT5NT5QYg/WZengklxGlaZtZ9N7R5JeyS_aF4FJxSdFhsg-rL7_0U"
+  },
+  {
+    "id": "LIB-110",
+    "titulo": "Cuaderno de agosto",
+    "autor": "Alice Vieira",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/LtNlpDUnWggsmRKGMEwWoA/VdcvLFz6CjeHcs4rRviTHRtZhcgCchvUVKfX5s5rP8DoGezb3S9HySosulBFNdWOdqhbSGFQeh908hfIOsp5rdntmW8YZ7bpiV4IoEu6xpagZGaaOzUpShZcdNF40q7l4Ugs6u1GpX_zFSGHQkA_6A/o3fShbjTMCKjN02dUjM2bZImnnq1yLgIKfxJorJxCOI"
+  },
+  {
+    "id": "LIB-111",
+    "titulo": "El Periquillo Sarniento",
+    "autor": "José Joaquín Fernández de Lizardi",
+    "genero": "Clásico",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/ggUkd8EBV53hiMItStx_MQ/ZNEqIbB_Nbobu32UnTCSwlmNB35ZD3Amu7JonTraQSWHIsrFe86g_RAjllDV44j87ipSc4eyTalLD-PNVmlxuN2ydvzEkzeFnKxSF87DddxE8xs98uMy25I6F82IHnwVtqQ7P2yf3KdjtHJIznWKpw/TIQP7GPYBK5POIOhs1Kxt-21i7A7aSGCrXUPlxt7ct0"
+  },
+  {
+    "id": "LIB-112",
+    "titulo": "Besos de Chocolate",
+    "autor": "Cale Agundis",
+    "genero": "Literatura",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/JxpvulezqqxmAHtcMcN1dQ/oqZ75bm6yMJYtyT2KZ9TVBRTPBSUb99qsGVmXQ4lEfzP2LjFzxPEIvlYTTLVmXAfEhlfxB3uFBAOZk0kdPAYDK7NKeLOA4fxcn6j3sXOPVDOcYFSF_FfusuDxDKVY6FlCsLzdJMD-9nAJUIv15u3hw/Ky8aADFcRBp0-cbbvll5Vr03FBynyYv4Ir9zMOj54sA"
+  },
+  {
+    "id": "LIB-113",
+    "titulo": "Los caminos de la Luna",
+    "autor": "Juan Farias",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/vYwUqce9PvWcReQXXN4xww/x7K4EtGtb1DPeRh8t4-K0UzTGuJCN7cVvPdbWuU844jQuxhaHHN2VSIoLqVjAQqmsnUP70ptAIg7bojqYZOJGmeViQJZnEhlp7LzXYNplV7DXtBiqxBDAhDuT-1EVP5lXrK1BRM0yYnrQE0DiP2uUA/cJjwftObPEZ_xus5MykkqV4VQP2EnnsyeMXOyUlpVms"
+  },
+  {
+    "id": "LIB-114",
+    "titulo": "Los consejos del buho",
+    "autor": "Horacio Jaramillo Loya",
+    "genero": "Autoayuda",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/OPnBCizzTIOfN_8IqNd_4Q/m537zfiMwJOgPeX86VgQdYiorFZa3kOzQsV8kgPqO9jYo8YuYCfx9HazlC2iSnm9DY9Gu07dVRneFVb72-_CXQ6e7W1cDJg9lhSLeBuqJLTyBtT-8rgSDamVsR9ELgRJUuI7N-zOyIb0q14XWs3lgQ/jROf-XepHBFzSO4fZNGwhUlfXO2wTZuv-hr4WTZgwN4"
+  },
+  {
+    "id": "LIB-115",
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "J.K. Rowling",
+    "genero": "Fantasía/Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/t9fAbExfa3bzUz3RINLu3Q/sLbXLqW4gZO-eYXop_7-zx4kjqbC1Ud2Bl2Lvt2-r9Emn-unxTrksYoikhs_kFhrmLWemx5Gqkv6regZMjjCRJ3MjbFvW3y-e06bCIp5CzrF3uWXEvh-Va_AAbIrlRBTRgNhApEmfPH2x8pAThEqgQ/ZgzVVaXeXrZZDD0ELdb10LIg-aD2QXkStK-147il7R8"
+  },
+  {
+    "id": "LIB-116",
+    "titulo": "Los traspiés de Alicia Paf",
+    "autor": "Gianni Rodari",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/wRBi98ontzzQBSgkV87_ow/SvWEGQd78G1blFkXsVE-b9Sle3SY4Lh-v1VqeJ62n7pTdfWg7gIes70xv7AwiY4XkUe76oATj8ig5aDmD7l87tOdofMeh4so7VlnTxmYRf1zPt6kPvlnt-MOEilfSb6lUkkUnxdtdgc6WaBG-iDyvA/FYkbcpu-TQ81rwALybgb17XM2j42HmFHQx54KIWuYhI"
+  },
+  {
+    "id": "LIB-117",
+    "titulo": "La ciudad sin nombre",
+    "autor": "José Luis Trueba Lara",
+    "genero": "Juvenil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/0LKScf8E7nN-Z3th2hLRog/wRNwyP9D-VqKOJOJphNw9gCb_EpiyyNPtt0sEVZJl5XZ5Q5xIdge1y-BCjHWfpgmqwXBJyFAeUnKKpa_dIJPSt7qRKvGe7DlYLKN2fB7ODuC6nwragXtMcqbeXoXL4BbPScGztzj-hQgHjFGqRqfwA/6DfkyIvJf2TtY3w9gq-sWk5ENu-YgOWSFEyw_L8rnm8"
+  },
+  {
+    "id": "LIB-118",
+    "titulo": "De Profundis / The Ballad of Reading Gaol",
+    "autor": "Oscar Wilde",
+    "genero": "Clásico (inglés)",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/C7LcnH9ANlBiHC_lJZo-Ow/7uHYeqSJsRcb3_N3TbPJKAUjFzwt_jfhS_uL6QPwlQXudBGHGAKHWraAdiort_vSfxkvxGWAtGAEEBw1BE0PNqGjeAShmj3CAtXYDo_YpsGgBeNd8DL5XwH_N0DwF1391wSqFXCzWjXbdfYPOw4bnw/m79Xx3ElIc61vN0tEOb318GD-fw8hSzDaQ1fRICl6aE"
+  },
+  {
+    "id": "LIB-119",
+    "titulo": "Tragedias",
+    "autor": "Sófocles",
+    "genero": "Clásico/Teatro",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/B-f8YZo_4obeyDR08VzwEg/eUsEg4MTftU9NIo-WOmgJSf2oFEgbZYT76JpXsn8i1rtXl8Bgb2VsiNMCpXnKNpJBPZJMj8HfbcjD3QWJl-0GpeuvIzss-gUx_7O_D8GErD-hHgSLPaT2HgTL6CtViXhlnbypOxPWwDlR5LGfkFMXA/M-oRHvXNUKaXdDx2jLH1ejApOG768UoPyweqqBSYjj8"
+  },
+  {
+    "id": "LIB-120",
+    "titulo": "El tiempo de Stalin: Retrato de una tiranía",
+    "autor": "Anton Antonov-Ovseyenko",
+    "genero": "Historia",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/oBmi9NG81KJhlJg_rnZEBQ/Je4b3aX5wvs7WZ13vObsrrTfb7bFbSQJHXYTi0F5pXZJHId5wl1aUQqRw36_r262lG1QkuHAFUNqTSy4IdX_IUKtnyg-oB8C2aeJyvz0AMUeyJhbp_7CJuOXDPa76RtRmsnpo1g3BY-koPUtRqWGqQ/ITqmNaZ3ZbjwHJNH77dU3doAylL6MfYx6ILzj3N0qt8"
+  },
+  {
+    "id": "LIB-121",
+    "titulo": "La Ilíada",
+    "autor": "Homero",
+    "genero": "Clásico/Épica",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/g-QJhs06eMChQWieuFdluQ/bgtc8_rZlq9AJo41Pgbz22dRvDYODTU65TS-QBiujY_CVmp_8fN4j9j_gwV0Fvm4l6Vng6pq4V_GHbPOU5x8nYqdq73NT6oYj9NxlkHXgJ__ebZaEwg2tV4FLmkEQVNKIpgVDoodriL1MQHlcOhL4A/9lL544YlIrVKuF9a3wGNW82oimxPk0Z5dSKhQexHV5U"
+  },
+  {
+    "id": "LIB-122",
+    "titulo": "La búsqueda de Archelon",
+    "autor": "Homero Aridjis",
+    "genero": "Novela",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/F16r2k_FLEspf9QVs3xVvA/qwFqx3IFZOxVpaSCf7EMRePHwwCdcHwZ2an6RCBBHXf_7RZCyfG1BQ6NShGX35xrsTYgOiN6dceLzMvUYy-jyz7MSMZd2VvMHmV5Q6Hmy3D6r8hMBjlEOItPGwFt5gEIddFDRNqhXspx1zSrdkZ2zA/doenMn-p5Lvzd8eErnosxhZdXwNpE11YC-mQhlVxUEc"
+  },
+  {
+    "id": "LIB-123",
+    "titulo": "The Legend of Zelda: Majora's Mask / A Link to the Past",
+    "autor": "Akira Himekawa",
+    "genero": "Manga",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/jk--dF3CVThcGuTGEyFCug/95a6t3WfD831vm_k2Fn-ezGYww78qco-KEh0tZEi_NK6OQ8714_TIz-daXPdD4B1fqINWItKb0-2dRg5xRfANsKy6bajb2mzF_8yG_2oqU5IM9WtuzXNtdGZ7E3dglL931Kbm_2VaQE_0HOw8Mwayw/mQKTW9tV8Rmm00jQoDqOyw6i6y57sx1owiE_lajalRc"
+  },
+  {
+    "id": "LIB-124",
+    "titulo": "Poema de Mio Cid",
+    "autor": "Anónimo",
+    "genero": "Clásico/Épica",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/40TeXY14xMNEFinheoQtig/pkvOTkRrISPxofX4wlvK8FjOB_wi8QlSiMTwddbd9ObTl_yuUhCJ0kO_4RDbKjNiAW-XIuXjvhsYPkKoV1lziJ-XRjNuxzco9yFm6a9MxM3aJJ6CdrSBIEKEBmni1sZpmOYZdnm6scsHHR4CZNFPuw/SKgLXYYtvmX0FrqlTQo-IEw1rBs637a-UoprsDy7iDI"
+  },
+  {
+    "id": "LIB-125",
+    "titulo": "Star y Marco: Una guía para dominar cualquier dimensión",
+    "autor": "Disney",
+    "genero": "Infantil",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/QodiquQOpc0Ovbp3klzMyw/XVk40y8mEJ1YyN9Zb9YczZbhc0KtG-KwZpXluWm5CK346rks6PTfgE3Bs1edb8CH7--iNa24NhccuhkU6McQxYD0f9iIDLK4IiWrscdmtHUoj_iVHzUWQ1f8GAmjfuFL5M0HH5RPkGrJhbpafTtQdQ/x_6ayQaRAAolnSFuiT0tZeGRLCxNlZ56yUpO1p1DK8E"
+  },
+  {
+    "id": "LIB-126",
+    "titulo": "Francesco: Una vida entre el cielo y la tierra",
+    "autor": "Yohana García",
+    "genero": "Ficción espiritual",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/ZTkQ45EWLg8BwnAbGjZlPg/15s7JuK3WzSevgiv8ecM1ILrY7RgVYW3bkzbnB5WacurOJrlsGuZ-BRozPxvve55NtwcF7q2oRvLnzy8izD_vSAeVfNwVvwXfbdS3p39G9uYQ6K5gD0xS7MVWIVsTRW0letS46VI56IRHRLQ-i7n6g/HeVvogb4fHtJMcHkmRsCzvGp5OoHGVzB6u5dPQTQN6U"
+  },
+  {
+    "id": "LIB-127",
+    "titulo": "Inferno",
+    "autor": "Dan Brown",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/68vPqZe1bw2irFjdI6bjig/BeadE6qDGq05hG-M6MVvDBNPnD-Z1SPhtZzWQF9YbeFaFKUvEBEoBYThR3pOPP_i8Pb4fpq4YKqQ1Edw4p7L87MuJslWt1ZzpY34N1Sb0_R1dANRcXtFRlp2eZNRKK4or0gkT0i_AV5hGK7AVy3pBQ/yzGruq8gguhwEhNaB_g5Viedu2b5VdczxF4WsRfcx0c"
+  },
+  {
+    "id": "LIB-128",
+    "titulo": "Terror en la Luna",
+    "autor": "J.J. Benítez",
+    "genero": "Misterio/OVNIS",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/HUa3UtaYastFkb4JPBlr3A/hOx-FTFQmusO6iaGf9zgJDDraxocTlpQ-z2TFHSFxPtO79PU-d1_eDY77_lO5aVRt_q6tTcaMwIm98-8kmUi_tWokCwSPUYcDqZ2m8kDT7alq3GPfwL84zHv4PBJ5ool733R-5sVeyzQVnnODbUg9g/8837I4u5mDUzbQs3jEYf8dfCfUPciU568HzNJNNUmuo"
+  },
+  {
+    "id": "LIB-129",
+    "titulo": "Deja en paz al diablo",
+    "autor": "John Verdon",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/plvIUfADKJd9l_34KD5KzQ/F2soN6LL0YS9w4fNWPbSX71qa4DrJxJUfTxmyT4ZKhqvp5JY1e9FDOliunQsgNvGS_go5yr57Brt2x-KgOIDhWYRE4gSGz9DP5kKdCSyKFgRK8wuC8i_kwX_WkfHXvGA045ruSlC8gjiflwYhDTW7g/Z4B_EbzUqhDEm40KryBhcCxSnSsWocgnSXTFJ09NZ7k"
+  },
+  {
+    "id": "LIB-130",
+    "titulo": "Yo Judas",
+    "autor": "Taylor Caldwell",
+    "genero": "Novela histórica/Religión",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/AirBgwJlV6ZgeiFG_AoRPA/7qgACoW6n16CgQ1CLvrofj-6Nlb3BAiyQPLtsZO6bDHQD1xhX0upY4W5g6A8Nd5793TQIYEY-uaSPWc_fJs6B_xktlFhMWZuSkVabMgiHVGrrycsSxd6Hjr_T5NBZCvdBdMesnP7UZxgQBJ1aB36Mg/taue2yYxPtu8UgZrPvIthH_2CLC4psNb11od8UDnKnQ"
+  },
+  {
+    "id": "LIB-131",
+    "titulo": "Deja en paz al diablo (copia 2)",
+    "autor": "John Verdon",
+    "genero": "Thriller",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/uARgXZtIybdiJqOb-k7ovw/Mo_LQCvu4-NqcWBnOOP8xBUbT_8-k_yCLZjyOkaL7xjhlM1CPb2jNc5-n9lezbcdIc45FVnVo7Ihm1yN9_ShRTE2AVuzMfSudnaKXlGJpUeQeVkQjxD4LKmz25bxRNVZxr0V11F6AzJuSqgw1mMovA/mZD7TIDXI1SiR0wHnj4WF_LSgwKbplQaVmI5x-vlQZA"
+  },
+  {
+    "id": "LIB-132",
+    "titulo": "José Saramago en sus palabras",
+    "autor": "Fernando Gómez Aguilera (ed.)",
+    "genero": "Ensayo/Literatura",
+    "cafeteria": "Chatello Lomas",
+    "estatus": "Disponible",
+    "portada": "https://v5.airtableusercontent.com/v3/u/52/52/1777752000000/xLWmR1SmUuEdDMOzeqqOPw/Vkh27K_wkM_m7bIrk0bCvCSdvcUMXepHSdxigzeSH3dcc5UZt2dC_pSFlcBKIZSukDCRRMsgJUSZF0FxEYM9LGFJel2gnG7P1YefXsgyXCQyks7Ct-tvoY2VB_5qRkoQpW5qq-hUrnd6Vx-JFrJ76A/fRS32oY8LtulSXo5TljAERsO7E5INrJDLjvxFFYBuTE"
+  },
+  {
+    "id": "ID",
+    "titulo": "﻿Name",
+    "autor": "Autor",
+    "genero": "Genero",
+    "cafeteria": "Cafeteria",
+    "estatus": "Estado",
+    "portada": null
+  }
+]

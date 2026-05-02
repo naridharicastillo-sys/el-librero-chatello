@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Devolver un Libro · El Librero</title>
+<style>
+
+  :root {
+    --cafe: #6F4E37;
+    --cafe-med: #A0785A;
+    --cafe-light: #C8A882;
+    --crema: #FFF8F0;
+    --crema2: #F5EFE7;
+    --verde: #4A7C59;
+    --azul: #1A5276;
+    --morado: #6C3483;
+    --dorado: #B7950B;
+    --texto: #2D1A0E;
+    --gris: #888;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--crema); color: var(--texto); min-height: 100vh; }
+
+  /* ── HEADER ── */
+  .header {
+    background: linear-gradient(135deg, #4a2f1a 0%, var(--cafe) 60%, var(--cafe-med) 100%);
+    color: #fff; padding: 30px 20px 24px; text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .header::before {
+    content: '📚📖📚📖📚📖📚';
+    position: absolute; top: 6px; left: 0; right: 0;
+    font-size: 14px; opacity: .15; letter-spacing: 6px;
+  }
+  .header .icon { font-size: 52px; line-height: 1; position: relative; }
+  .header h1 { font-size: 23px; font-weight: 800; margin-top: 8px; }
+  .header p { font-size: 13px; opacity: .85; margin-top: 5px; line-height: 1.5; }
+  .badge {
+    display: inline-block; background: rgba(255,255,255,.18);
+    border: 1px solid rgba(255,255,255,.4); border-radius: 20px;
+    font-size: 11px; padding: 3px 14px; margin-top: 10px; letter-spacing: .4px;
+  }
+
+  /* ── CARDS ── */
+  .card {
+    background: #fff; border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(111,78,55,.11);
+    margin: 18px 16px; padding: 22px 20px;
+  }
+  .card-title {
+    font-size: 15px; font-weight: 700; color: var(--cafe);
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 18px; padding-bottom: 10px;
+    border-bottom: 2px solid var(--crema2);
+  }
+  .optional-tag {
+    margin-left: auto; font-size: 10px; font-weight: 600;
+    background: var(--crema2); color: var(--cafe-med);
+    padding: 2px 10px; border-radius: 20px; letter-spacing: .3px;
+  }
+
+  /* ── FORM ── */
+  .form-group { margin-bottom: 18px; }
+  label.field-label {
+    display: block; font-size: 13px; font-weight: 600;
+    color: var(--cafe); margin-bottom: 8px;
+  }
+  label.field-label .req { color: #c0392b; margin-left: 2px; }
+  input[type=text], select, textarea {
+    width: 100%; padding: 12px 14px;
+    border: 1.5px solid #D9C4B0; border-radius: 10px;
+    font-size: 15px; color: var(--texto); background: #fff;
+    outline: none; transition: border .2s; font-family: inherit;
+    -webkit-appearance: none;
+  }
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--cafe);
+    box-shadow: 0 0 0 3px rgba(111,78,55,.1);
+  }
+  textarea { resize: none; }
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236F4E37' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px;
+  }
+
+  /* ── STAR / NUMBER RATING ── */
+  .rating-wrap {
+    display: flex; flex-direction: column; align-items: center; gap: 14px;
+  }
+  .number-rating {
+    display: flex; gap: 6px; flex-wrap: wrap; justify-content: center;
+  }
+  .num-btn {
+    width: 44px; height: 44px;
+    border: 2px solid #D9C4B0; border-radius: 10px;
+    background: #fff; font-size: 15px; font-weight: 700;
+    color: var(--cafe-med); cursor: pointer;
+    transition: all .15s; display: flex; align-items: center; justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .num-btn:hover { border-color: var(--cafe); color: var(--cafe); transform: scale(1.08); }
+  .num-btn.selected { background: var(--cafe); border-color: var(--cafe); color: #fff; transform: scale(1.12); }
+  .num-btn.selected-low  { background: #c0392b; border-color: #c0392b; color: #fff; }
+  .num-btn.selected-mid  { background: var(--dorado); border-color: var(--dorado); color: #fff; }
+  .num-btn.selected-high { background: var(--verde);  border-color: var(--verde);  color: #fff; }
+  .rating-label {
+    font-size: 13px; font-weight: 600; color: var(--gris);
+    min-height: 20px; transition: color .2s;
+  }
+
+  /* ── YES/NO TOGGLE ── */
+  .yesno-group { display: flex; gap: 12px; }
+  .yesno-btn {
+    flex: 1; padding: 13px 10px;
+    border: 2px solid #D9C4B0; border-radius: 12px;
+    background: #fff; font-size: 15px; font-weight: 700;
+    color: var(--cafe-med); cursor: pointer;
+    transition: all .15s; text-align: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .yesno-btn:hover { border-color: var(--cafe); color: var(--cafe); }
+  .yesno-btn.selected-yes { background: var(--verde); border-color: var(--verde); color: #fff; }
+  .yesno-btn.selected-no  { background: var(--cafe);  border-color: var(--cafe);  color: #fff; }
+
+  /* ── QUOTE BOX ── */
+  .quote-input {
+    position: relative;
+  }
+  .quote-input::before {
+    content: '"';
+    position: absolute; top: 10px; left: 14px;
+    font-size: 28px; color: var(--cafe-light); font-family: Georgia, serif;
+    line-height: 1; pointer-events: none;
+  }
+  .quote-input textarea {
+    padding-left: 36px;
+    font-style: italic;
+    font-size: 14px;
+    min-height: 90px;
+    line-height: 1.6;
+  }
+  .char-count {
+    text-align: right; font-size: 11px; color: var(--gris); margin-top: 4px;
+  }
+
+  /* ── ESTADO LIBRO ── */
+  .estado-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .estado-card {
+    border: 2px solid #D9C4B0; border-radius: 12px;
+    padding: 12px 10px; text-align: center; cursor: pointer;
+    transition: all .15s; background: #fff;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .estado-card .estado-icon { font-size: 24px; }
+  .estado-card .estado-lbl { font-size: 12px; font-weight: 600; color: var(--cafe-med); margin-top: 4px; }
+  .estado-card:hover { border-color: var(--cafe); }
+  .estado-card.selected { border-color: var(--cafe); background: var(--crema2); }
+  .estado-card.selected .estado-lbl { color: var(--cafe); }
+
+  /* ── SUBMIT ── */
+  .submit-btn {
+    width: 100%; padding: 17px;
+    background: linear-gradient(135deg, var(--cafe) 0%, #4a2f1a 100%);
+    color: #fff; border: none; border-radius: 13px;
+    font-size: 16px; font-weight: 800; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    transition: opacity .2s, transform .1s; margin-top: 8px;
+    letter-spacing: .3px;
+  }
+  .submit-btn:hover { opacity: .9; }
+  .submit-btn:active { transform: scale(.98); }
+
+  /* ── GRACIAS ── */
+  #thank-you { display: none; text-align: center; padding: 36px 20px; }
+  #thank-you .big-icon { font-size: 76px; }
+  #thank-you h2 { color: var(--verde); font-size: 23px; margin-top: 12px; font-weight: 800; }
+  #thank-you .sub { color: var(--gris); margin-top: 8px; font-size: 14px; line-height: 1.6; }
+
+  .reward-card {
+    background: linear-gradient(135deg, var(--cafe) 0%, var(--cafe-med) 100%);
+    border-radius: 14px; padding: 18px; margin-top: 18px; color: #fff;
+    text-align: left;
+  }
+  .reward-card h4 { font-size: 13px; opacity: .8; font-weight: 600; margin-bottom: 6px; }
+  .reward-card .quote-display {
+    font-size: 15px; font-style: italic; font-family: Georgia, serif;
+    line-height: 1.6; opacity: .95;
+  }
+  .reward-card .book-name { font-size: 12px; opacity: .7; margin-top: 8px; text-align: right; }
+
+  .new-btn {
+    background: var(--cafe-med); color: #fff; border: none;
+    padding: 13px 28px; border-radius: 11px; font-size: 14px;
+    font-weight: 700; cursor: pointer; margin-top: 20px;
+  }
+
+  /* ── FOOTER ── */
+  .footer { text-align: center; padding: 20px 16px; font-size: 11px; color: var(--gris); line-height: 1.7; }
+  .footer strong { color: var(--cafe-med); }
+
+  .airtable-wrapper {
+    padding: 8px 0 0;
+    background: var(--crema, #FFF8F0);
+    min-height: calc(100vh - 160px);
+  }
+  iframe {
+    border: none;
+    width: 100%;
+    min-height: 85vh;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="icon">↩️</div>
+
+
+<script>
+  window.location.replace("https://airtable.com/appDFzKRtLphzoRSA/shrlgZbqQ5TgMpfWn");
+</script>
+<div style="text-align:center;padding:40px 20px;">
+  <p style="font-size:14px;color:#888;margin-bottom:20px;">Redirigiendo al formulario…</p>
+  <a href="https://airtable.com/appDFzKRtLphzoRSA/shrlgZbqQ5TgMpfWn"
+     style="background:#6C3483;color:#fff;padding:14px 32px;border-radius:12px;text-decoration:none;font-weight:700;font-size:15px;">
+    Abrir formulario →
+  </a>
+</div>
+
+<div class="footer">
+  <strong>El Librero</strong> · Proyecto de préstamo de libros<br>
+  Sin fines de lucro · Con ❤️ para la comunidad
+</div>
+
+</body>
+</html>

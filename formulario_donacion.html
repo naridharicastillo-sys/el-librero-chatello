@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Donar un Libro · El Librero</title>
+<style>
+
+  :root {
+    --cafe: #6F4E37;
+    --cafe-med: #A0785A;
+    --cafe-light: #C8A882;
+    --crema: #FFF8F0;
+    --crema2: #F5EFE7;
+    --verde: #4A7C59;
+    --texto: #2D1A0E;
+    --gris: #888;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--crema);
+    color: var(--texto);
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: var(--cafe);
+    color: #fff;
+    padding: 28px 20px 20px;
+    text-align: center;
+  }
+  .header .icon { font-size: 48px; line-height: 1; }
+  .header h1 { font-size: 22px; font-weight: 800; margin-top: 8px; }
+  .header p { font-size: 13px; opacity: .85; margin-top: 4px; }
+  .badge {
+    display: inline-block;
+    background: rgba(255,255,255,.18);
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 20px;
+    font-size: 11px;
+    padding: 3px 12px;
+    margin-top: 8px;
+    letter-spacing: .5px;
+  }
+
+  /* ── CARD ── */
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(111,78,55,.12);
+    margin: 20px 16px;
+    padding: 24px 20px;
+  }
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--cafe);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--crema2);
+  }
+
+  /* ── PHOTO UPLOAD ── */
+  .photo-area {
+    border: 2.5px dashed var(--cafe-light);
+    border-radius: 14px;
+    padding: 32px 20px;
+    text-align: center;
+    background: var(--crema2);
+    cursor: pointer;
+    transition: all .2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .photo-area:hover { border-color: var(--cafe); background: #efe8df; }
+  .photo-area input[type=file] {
+    position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%;
+  }
+  .photo-icon { font-size: 44px; }
+  .photo-area p { font-size: 14px; color: var(--cafe-med); margin-top: 8px; font-weight: 600; }
+  .photo-area span { font-size: 12px; color: var(--gris); display: block; margin-top: 4px; }
+  #preview-container { display: none; }
+  #preview-img {
+    width: 100%; max-height: 220px;
+    object-fit: contain; border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  .remove-btn {
+    background: #fff0f0; color: #c0392b; border: none;
+    padding: 6px 16px; border-radius: 20px; font-size: 12px;
+    cursor: pointer; font-weight: 600;
+  }
+
+  /* ── FORM ── */
+  .form-group { margin-bottom: 16px; }
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--cafe);
+    margin-bottom: 6px;
+  }
+  label .req { color: #c0392b; margin-left: 2px; }
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid #D9C4B0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: var(--texto);
+    background: #fff;
+    outline: none;
+    transition: border .2s;
+    font-family: inherit;
+    -webkit-appearance: none;
+  }
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--cafe);
+    box-shadow: 0 0 0 3px rgba(111,78,55,.1);
+  }
+  textarea { resize: none; min-height: 80px; }
+  select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236F4E37' d='M6 8L0 0h12z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px; }
+
+  /* ── DONOR SECTION ── */
+  .donor-toggle {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--crema2); border-radius: 10px;
+    padding: 12px 14px; margin-bottom: 16px; cursor: pointer;
+  }
+  .donor-toggle input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--cafe); }
+  .donor-toggle span { font-size: 14px; font-weight: 600; color: var(--cafe-med); }
+  #donor-fields { display: none; }
+
+  /* ── SUBMIT ── */
+  .submit-btn {
+    width: 100%;
+    padding: 16px;
+    background: var(--cafe);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background .2s, transform .1s;
+    margin-top: 8px;
+  }
+  .submit-btn:hover { background: #5a3d2b; }
+  .submit-btn:active { transform: scale(.98); }
+
+  /* ── THANK YOU ── */
+  #thank-you {
+    display: none;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  #thank-you .big-icon { font-size: 72px; }
+  #thank-you h2 { color: var(--verde); font-size: 22px; margin-top: 12px; }
+  #thank-you p { color: var(--gris); margin-top: 8px; font-size: 14px; line-height: 1.5; }
+  .new-btn {
+    background: var(--cafe-med); color: #fff; border: none;
+    padding: 12px 24px; border-radius: 10px; font-size: 14px;
+    font-weight: 700; cursor: pointer; margin-top: 20px;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 11px;
+    color: var(--gris);
+    line-height: 1.6;
+  }
+  .footer strong { color: var(--cafe-med); }
+
+  .airtable-wrapper {
+    padding: 8px 0 0;
+    background: var(--crema, #FFF8F0);
+    min-height: calc(100vh - 160px);
+  }
+  iframe {
+    border: none;
+    width: 100%;
+    min-height: 85vh;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="icon">📚</div>
+
+
+<script>
+  window.location.replace("https://airtable.com/appDFzKRtLphzoRSA/shruPFj3raJnnxWh6");
+</script>
+<div style="text-align:center;padding:40px 20px;">
+  <p style="font-size:14px;color:#888;margin-bottom:20px;">Redirigiendo al formulario…</p>
+  <a href="https://airtable.com/appDFzKRtLphzoRSA/shruPFj3raJnnxWh6"
+     style="background:#4A7C59;color:#fff;padding:14px 32px;border-radius:12px;text-decoration:none;font-weight:700;font-size:15px;">
+    Abrir formulario →
+  </a>
+</div>
+
+<div class="footer">
+  <strong>El Librero</strong> · Proyecto de préstamo de libros<br>
+  Sin fines de lucro · Con ❤️ para la comunidad
+</div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Pedir un Libro · El Librero</title>
+<style>
+
+  :root {
+    --cafe: #6F4E37;
+    --cafe-med: #A0785A;
+    --cafe-light: #C8A882;
+    --crema: #FFF8F0;
+    --crema2: #F5EFE7;
+    --verde: #4A7C59;
+    --texto: #2D1A0E;
+    --gris: #888;
+    --azul: #1A5276;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--crema); color: var(--texto); min-height: 100vh; }
+
+  .header {
+    background: linear-gradient(135deg, var(--cafe) 0%, #4a2f1a 100%);
+    color: #fff; padding: 28px 20px 22px; text-align: center;
+  }
+  .header .icon { font-size: 50px; line-height: 1; }
+  .header h1 { font-size: 22px; font-weight: 800; margin-top: 8px; }
+  .header p { font-size: 13px; opacity: .85; margin-top: 4px; line-height: 1.5; }
+  .badge {
+    display: inline-block; background: rgba(255,255,255,.18);
+    border: 1px solid rgba(255,255,255,.4); border-radius: 20px;
+    font-size: 11px; padding: 3px 12px; margin-top: 8px;
+  }
+
+  /* Progress */
+  .progress-bar {
+    display: flex; background: #fff; padding: 0;
+    border-bottom: 1px solid #e8d9cc;
+  }
+  .step {
+    flex: 1; padding: 10px 4px; text-align: center;
+    font-size: 11px; font-weight: 600; color: var(--gris);
+    border-bottom: 3px solid transparent; transition: all .2s;
+  }
+  .step.active { color: var(--cafe); border-bottom-color: var(--cafe); }
+  .step.done { color: var(--verde); border-bottom-color: var(--verde); }
+  .step-num {
+    display: inline-flex; width: 20px; height: 20px;
+    background: #e0d0c0; border-radius: 50%;
+    align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; color: #fff;
+    margin-bottom: 2px;
+  }
+  .step.active .step-num { background: var(--cafe); }
+  .step.done .step-num { background: var(--verde); }
+
+  /* Cards */
+  .card {
+    background: #fff; border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(111,78,55,.1);
+    margin: 20px 16px; padding: 24px 20px;
+  }
+  .card-title {
+    font-size: 15px; font-weight: 700; color: var(--cafe);
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 18px; padding-bottom: 10px;
+    border-bottom: 2px solid var(--crema2);
+  }
+
+  /* Form fields */
+  .form-group { margin-bottom: 16px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  label { display: block; font-size: 13px; font-weight: 600; color: var(--cafe); margin-bottom: 6px; }
+  label .req { color: #c0392b; margin-left: 2px; }
+  input[type=text], input[type=tel], input[type=number], select, textarea {
+    width: 100%; padding: 12px 14px;
+    border: 1.5px solid #D9C4B0; border-radius: 10px;
+    font-size: 15px; color: var(--texto); background: #fff;
+    outline: none; transition: border .2s; font-family: inherit;
+    -webkit-appearance: none;
+  }
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--cafe);
+    box-shadow: 0 0 0 3px rgba(111,78,55,.1);
+  }
+  textarea { resize: none; min-height: 80px; }
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236F4E37' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px;
+  }
+
+  /* Info box */
+  .info-box {
+    background: #EBF5FB; border-left: 4px solid var(--azul);
+    border-radius: 0 10px 10px 0; padding: 12px 14px;
+    font-size: 13px; color: var(--azul); margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  /* Política */
+  .policy-box {
+    background: var(--crema2); border: 1.5px solid var(--cafe-light);
+    border-radius: 12px; padding: 16px; margin-bottom: 16px;
+    max-height: 200px; overflow-y: auto;
+    font-size: 12px; color: #555; line-height: 1.7;
+  }
+  .policy-box h4 { color: var(--cafe); font-size: 13px; margin-bottom: 8px; }
+  .policy-box p { margin-bottom: 8px; }
+  .policy-box ul { padding-left: 16px; }
+  .policy-box ul li { margin-bottom: 4px; }
+
+  .check-row {
+    display: flex; align-items: flex-start; gap: 12px;
+    background: #fff; border: 1.5px solid #D9C4B0;
+    border-radius: 10px; padding: 14px; margin-bottom: 12px;
+    cursor: pointer; transition: border .2s;
+  }
+  .check-row:has(input:checked) { border-color: var(--cafe); background: var(--crema2); }
+  .check-row input[type=checkbox] { width: 20px; height: 20px; accent-color: var(--cafe); flex-shrink: 0; margin-top: 1px; }
+  .check-row span { font-size: 13px; color: var(--texto); line-height: 1.5; }
+  .check-row span strong { color: var(--cafe); }
+
+  /* Buttons */
+  .btn-primary {
+    width: 100%; padding: 16px; background: var(--cafe);
+    color: #fff; border: none; border-radius: 12px;
+    font-size: 16px; font-weight: 700; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    transition: background .2s, transform .1s; margin-top: 8px;
+  }
+  .btn-primary:hover { background: #5a3d2b; }
+  .btn-primary:active { transform: scale(.98); }
+  .btn-primary:disabled { background: #ccc; cursor: not-allowed; }
+  .btn-secondary {
+    width: 100%; padding: 13px; background: transparent;
+    color: var(--cafe-med); border: 2px solid var(--cafe-light);
+    border-radius: 12px; font-size: 14px; font-weight: 700;
+    cursor: pointer; margin-top: 10px;
+  }
+
+  /* Sections */
+  .section { display: none; }
+  .section.active { display: block; }
+
+  /* Thank you */
+  #thank-you { display: none; text-align: center; padding: 40px 20px; }
+  #thank-you .big-icon { font-size: 72px; }
+  #thank-you h2 { color: var(--verde); font-size: 22px; margin-top: 12px; }
+  #thank-you p { color: var(--gris); margin-top: 8px; font-size: 14px; line-height: 1.6; }
+  .summary-box {
+    background: var(--crema2); border-radius: 12px;
+    padding: 16px; margin-top: 16px; text-align: left;
+  }
+  .summary-box .row { display: flex; justify-content: space-between; padding: 6px 0;
+    border-bottom: 1px solid #e8d9cc; font-size: 13px; }
+  .summary-box .row:last-child { border-bottom: none; }
+  .summary-box .lbl { color: var(--gris); }
+  .summary-box .val { font-weight: 600; color: var(--texto); text-align: right; max-width: 60%; }
+
+  .footer { text-align: center; padding: 20px; font-size: 11px; color: var(--gris); line-height: 1.6; }
+  .footer strong { color: var(--cafe-med); }
+
+  .airtable-wrapper {
+    padding: 8px 0 0;
+    background: var(--crema, #FFF8F0);
+    min-height: calc(100vh - 160px);
+  }
+  iframe {
+    border: none;
+    width: 100%;
+    min-height: 85vh;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="icon">📖</div>
+
+
+<script>
+  window.location.replace("https://airtable.com/appDFzKRtLphzoRSA/shr0CgyblfEM6L5m3");
+</script>
+<div style="text-align:center;padding:40px 20px;">
+  <p style="font-size:14px;color:#888;margin-bottom:20px;">Redirigiendo al formulario…</p>
+  <a href="https://airtable.com/appDFzKRtLphzoRSA/shr0CgyblfEM6L5m3"
+     style="background:#6F4E37;color:#fff;padding:14px 32px;border-radius:12px;text-decoration:none;font-weight:700;font-size:15px;">
+    Abrir formulario →
+  </a>
+</div>
+
+<div class="footer">
+  <strong>El Librero</strong> · Proyecto de préstamo de libros<br>
+  Sin fines de lucro · Con ❤️ para la comunidad
+</div>
+
+</body>
+</html>

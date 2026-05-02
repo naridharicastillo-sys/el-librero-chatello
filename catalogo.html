@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Catálogo · El Librero</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cafe:       #6F4E37;
+    --cafe-dark:  #3b2010;
+    --cafe-med:   #A0785A;
+    --cafe-light: #C8A882;
+    --crema:      #FFF8F0;
+    --crema2:     #F5EFE7;
+    --verde:      #3d6b49;
+    --morado:     #5a2d72;
+    --texto:      #2D1A0E;
+    --gris:       #888;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: var(--crema);
+    color: var(--texto);
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: linear-gradient(160deg, #2a1508 0%, #4a2e18 60%, #6F4E37 100%);
+    padding: 28px 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .header-back {
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .header-text { flex: 1; }
+
+  .header-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 900;
+  }
+
+  .header-text p {
+    font-size: 11px;
+    color: rgba(255,255,255,.6);
+    margin-top: 2px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .header-logo {
+    width: 44px;
+    filter: invert(1) brightness(2);
+    opacity: 0.8;
+    flex-shrink: 0;
+  }
+
+  /* ── SEARCH & FILTER ── */
+  .controls {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    border-bottom: 1px solid var(--crema2);
+  }
+
+  .search-box {
+    position: relative;
+  }
+
+  .search-box input {
+    width: 100%;
+    padding: 11px 16px 11px 38px;
+    border: 1.5px solid var(--crema2);
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    background: var(--crema);
+    color: var(--texto);
+    outline: none;
+    transition: border-color .2s;
+  }
+
+  .search-box input:focus { border-color: var(--cafe-light); }
+
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gris);
+    font-size: 16px;
+  }
+
+  .filters {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+
+  .filters::-webkit-scrollbar { display: none; }
+
+  .filter-btn {
+    flex-shrink: 0;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1.5px solid var(--crema2);
+    background: var(--crema);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cafe-med);
+    cursor: pointer;
+    transition: all .15s;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .filter-btn.active {
+    background: var(--cafe);
+    border-color: var(--cafe);
+    color: #fff;
+  }
+
+  /* ── STATS BAR ── */
+  .stats-bar {
+    padding: 10px 16px;
+    font-size: 12px;
+    color: var(--gris);
+  }
+
+  .stats-bar strong { color: var(--cafe); }
+
+  /* ── GRID ── */
+  .grid {
+    padding: 0 16px 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  /* ── BOOK CARD ── */
+  .book-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(111,78,55,.09);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-cover {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    display: block;
+    background: var(--crema2);
+  }
+
+  .book-cover-placeholder {
+    width: 100%;
+    aspect-ratio: 2/3;
+    background: linear-gradient(135deg, var(--crema2) 0%, #e8d9cc 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .book-cover-placeholder span {
+    font-size: 36px;
+  }
+
+  .book-cover-placeholder p {
+    font-size: 10px;
+    color: var(--cafe-light);
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .book-info {
+    padding: 10px 12px 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .book-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--texto);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .book-author {
+    font-size: 11px;
+    color: var(--cafe-med);
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .book-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+  }
+
+  .book-cafe {
+    font-size: 10px;
+    color: var(--gris);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .book-status {
+    font-size: 9px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .status-disponible { background: #d4edda; color: #1e6b34; }
+  .status-prestado   { background: #fde8d8; color: #8b3a0f; }
+  .status-otro       { background: var(--crema2); color: var(--gris); }
+
+  /* ── SKELETON ── */
+  .skeleton {
+    background: linear-gradient(90deg, var(--crema2) 25%, #ede4d8 50%, var(--crema2) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+    border-radius: 6px;
+  }
+
+  @keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .skeleton-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(111,78,55,.06);
+  }
+
+  .skeleton-cover {
+    width: 100%;
+    aspect-ratio: 2/3;
+  }
+
+  .skeleton-body { padding: 10px 12px 12px; }
+
+  .skeleton-line {
+    height: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+
+  /* ── EMPTY STATE ── */
+  .empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 48px 20px;
+  }
+
+  .empty-state p { font-size: 14px; color: var(--gris); margin-top: 12px; }
+
+  /* ── ERROR STATE ── */
+  .error-state {
+    margin: 20px 16px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(111,78,55,.07);
+  }
+
+  .error-state h3 { color: var(--cafe); font-size: 16px; margin-bottom: 8px; }
+  .error-state p { font-size: 13px; color: var(--gris); line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <a href="index.html" class="header-back">←</a>
+  <div class="header-text">
+    <h1>Catálogo de libros</h1>
+    <p>El Librero · Chatello</p>
+  </div>
+  <img src="logo_chatello.png" alt="Chatello" class="header-logo">
+</div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Buscar por título o autor…" oninput="filterBooks()">
+  </div>
+  <div class="filters" id="cafeFilters">
+    <button class="filter-btn active" data-cafe="todos" onclick="setCafe(this)">Todos</button>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-bar" id="statsBar">Cargando catálogo…</div>
+
+<!-- GRID -->
+<div class="grid" id="grid">
+  <!-- Skeletons -->
+  <div class="skeleton-card"><div class="skeleton skeleton-cover"></div><div class="skeleton-body"><div class="skeleton skeleton-line" style="width:80%"></div><div class="skeleton skeleton-line" style="width:55%"></div></div></div>
+  <div class="skeleton-card"><div class="skeleton skeleton-cover"></div><div class="skeleton-body"><div class="skeleton skeleton-line" style="width:70%"></div><div class="skeleton skeleton-line" style="width:45%"></div></div></div>
+  <div class="skeleton-card"><div class="skeleton skeleton-cover"></div><div class="skeleton-body"><div class="skeleton skeleton-line" style="width:85%"></div><div class="skeleton skeleton-line" style="width:60%"></div></div></div>
+  <div class="skeleton-card"><div class="skeleton skeleton-cover"></div><div class="skeleton-body"><div class="skeleton skeleton-line" style="width:65%"></div><div class="skeleton skeleton-line" style="width:50%"></div></div></div>
+</div>
+
+<script>
+// Catálogo cargado desde libros.json (sin token, sin API keys)
+let allBooks = [];
+let activeCafe = 'todos';
+
+// ── Fetch libros.json ────────────────────────────────────────────────────────
+async function fetchAllBooks() {
+  const res = await fetch('libros.json');
+  if (!res.ok) throw new Error('No se pudo cargar libros.json');
+  return await res.json();
+}
+
+// ── Build cafe filter buttons ────────────────────────────────────────────────
+const CAFES_VALIDAS = ['Chatello Himno Nacional', 'Chatello Av Carranza', 'Chatello Lomas'];
+
+function buildFilters(books) {
+  const cafes = [...new Set(
+    books.map(b => b.cafeteria).filter(v => v && CAFES_VALIDAS.includes(v))
+  )].sort();
+
+  const container = document.getElementById('cafeFilters');
+  cafes.forEach(cafe => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.dataset.cafe = cafe;
+    btn.textContent = cafe.replace('Chatello ', '');
+    btn.onclick = function() { setCafe(this); };
+    container.appendChild(btn);
+  });
+}
+
+function setCafe(btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  activeCafe = btn.dataset.cafe;
+  filterBooks();
+}
+
+// ── Render ───────────────────────────────────────────────────────────────────
+function filterBooks() {
+  const query = document.getElementById('searchInput').value.toLowerCase().trim();
+  const filtered = allBooks.filter(b => {
+    const matchSearch = !query ||
+      (b.titulo || '').toLowerCase().includes(query) ||
+      (b.autor  || '').toLowerCase().includes(query);
+    const matchCafe = activeCafe === 'todos' || b.cafeteria === activeCafe;
+    return matchSearch && matchCafe;
+  });
+  renderGrid(filtered);
+}
+
+function statusClass(status) {
+  if (!status) return 'status-otro';
+  const s = status.toLowerCase();
+  if (s.includes('disponible')) return 'status-disponible';
+  if (s.includes('prestado'))   return 'status-prestado';
+  return 'status-otro';
+}
+
+function renderGrid(books) {
+  const grid  = document.getElementById('grid');
+  const stats = document.getElementById('statsBar');
+
+  if (books.length === 0) {
+    grid.innerHTML = `<div class="empty-state"><span style="font-size:48px">📚</span><p>No se encontraron libros con ese criterio.</p></div>`;
+    stats.innerHTML = 'Sin resultados';
+    return;
+  }
+
+  stats.innerHTML = `<strong>${books.length}</strong> libro${books.length !== 1 ? 's' : ''} encontrado${books.length !== 1 ? 's' : ''}`;
+
+  grid.innerHTML = books.map(b => {
+    const cafeshort    = (b.cafeteria || '').replace('Chatello ', '');
+    const statusLabel  = b.estatus || 'Disponible';
+    const sc           = statusClass(statusLabel);
+    const coverHtml    = b.portada
+      ? `<img class="book-cover" src="${b.portada}" alt="${b.titulo}" loading="lazy" onerror="this.outerHTML='<div class=book-cover-placeholder><span>📖</span></div>'">`
+      : `<div class="book-cover-placeholder"><span>📖</span><p>${(b.titulo||'').substring(0,20)}</p></div>`;
+
+    return `
+      <div class="book-card">
+        ${coverHtml}
+        <div class="book-info">
+          <div class="book-title">${b.titulo || 'Sin título'}</div>
+          ${b.autor ? `<div class="book-author">${b.autor}</div>` : ''}
+          <div class="book-meta">
+            <div class="book-cafe">${cafeshort}</div>
+            <span class="book-status ${sc}">${statusLabel}</span>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    allBooks = await fetchAllBooks();
+    buildFilters(allBooks);
+    filterBooks();
+  } catch (err) {
+    document.getElementById('grid').innerHTML = '';
+    document.getElementById('statsBar').innerHTML = '';
+    document.querySelector('.controls').insertAdjacentHTML('afterend',
+      `<div class="error-state"><h3>No se pudo cargar el catálogo</h3>
+       <p>Verifica tu conexión e intenta de nuevo.<br><small>${err.message}</small></p></div>`);
+  }
+}
+
+init();
+</script>
+</body>
+</html>

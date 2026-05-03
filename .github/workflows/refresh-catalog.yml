@@ -1,0 +1,81 @@
+name: 📚 Actualizar catálogo El Librero
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Cada 6 horas automáticamente
+  workflow_dispatch:         # También se puede lanzar a mano desde GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Generar libros.json desde Airtable
+        run: |
+          python3 << 'PYEOF'
+          import json, requests, os
+          from pathlib import Path
+
+          TOKEN   = os.environ['AIRTABLE_TOKEN']
+          BASE_ID = 'appDFzKRtLphzoRSA'
+          TABLE   = 'Biblioteca'
+
+          def fetch_all():
+              headers = {'Authorization': f'Bearer {TOKEN}'}
+              records, offset = [], None
+              while True:
+                  url = f'https://api.airtable.com/v0/{BASE_ID}/{TABLE}?pageSize=100'
+                  if offset:
+                      url += f'&offset={offset}'
+                  data = requests.get(url, headers=headers, timeout=30).json()
+                  records.extend(data['records'])
+                  offset = data.get('offset')
+                  if not offset:
+                      break
+              return records
+
+          def parse(records):
+              libros = []
+              for r in records:
+                  f = r['fields']
+                  fotos = f.get('Foto de portada') or []
+                  portada = None
+                  if fotos:
+                      portada = fotos[0].get('thumbnails', {}).get('large', {}).get('url') or fotos[0].get('url')
+                  libros.append({
+                      'id':        f.get('ID', ''),
+                      'titulo':    f.get('Name', ''),
+                      'autor':     f.get('Autor', ''),
+                      'genero':    f.get('Genero', ''),
+                      'cafeteria': f.get('Cafeteria', ''),
+                      'estatus':   f.get('Estatus', 'Disponible'),
+                      'portada':   portada,
+                  })
+              libros.sort(key=lambda x: int(x['id'].replace('LIB-','')) if x['id'].startswith('LIB-') else 9999)
+              return libros
+
+          print('Obteniendo catálogo de Airtable...')
+          records = fetch_all()
+          print(f'{len(records)} libros encontrados')
+          libros = parse(records)
+          Path('libros.json').write_text(json.dumps(libros, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(f'libros.json generado con {len(libros)} libros ✅')
+          PYEOF
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+
+      - name: Guardar cambios en GitHub
+        run: |
+          git config --local user.email "librero-bot@chatello.mx"
+          git config --local user.name "El Librero Bot"
+          git add libros.json
+          git diff --staged --quiet || git commit -m "📚 Catálogo actualizado $(date +'%Y-%m-%d %H:%M UTC')"
+          git push

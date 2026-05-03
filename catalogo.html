@@ -362,7 +362,7 @@ const CAFES_VALIDAS = ['Chatello Himno Nacional', 'Chatello Av Carranza', 'Chate
 
 function buildFilters(books) {
   const cafes = [...new Set(
-    books.map(b => b.cafeteria).filter(v => v && CAFES_VALIDAS.includes(v))
+    books.map(b => getCafe(b)).filter(v => v && CAFES_VALIDAS.includes(v))
   )].sort();
 
   const container = document.getElementById('cafeFilters');
@@ -374,6 +374,13 @@ function buildFilters(books) {
     btn.onclick = function() { setCafe(this); };
     container.appendChild(btn);
   });
+}
+
+// Helper: cafeteria puede venir como string o como array desde Airtable
+function getCafe(b) {
+  const c = b.cafeteria;
+  if (Array.isArray(c)) return c[0] || '';
+  return c || '';
 }
 
 function setCafe(btn) {
@@ -390,7 +397,7 @@ function filterBooks() {
     const matchSearch = !query ||
       (b.titulo || '').toLowerCase().includes(query) ||
       (b.autor  || '').toLowerCase().includes(query);
-    const matchCafe = activeCafe === 'todos' || b.cafeteria === activeCafe;
+    const matchCafe = activeCafe === 'todos' || getCafe(b) === activeCafe;
     return matchSearch && matchCafe;
   });
   renderGrid(filtered);
@@ -417,7 +424,7 @@ function renderGrid(books) {
   stats.innerHTML = `<strong>${books.length}</strong> libro${books.length !== 1 ? 's' : ''} encontrado${books.length !== 1 ? 's' : ''}`;
 
   grid.innerHTML = books.map(b => {
-    const cafeshort    = (b.cafeteria || '').replace('Chatello ', '');
+    const cafeshort    = getCafe(b).replace('Chatello ', '');
     const statusLabel  = b.estatus || 'Disponible';
     const sc           = statusClass(statusLabel);
     const coverHtml    = b.portada
